@@ -1,0 +1,98 @@
+body {
+  background-image: url("../../pix/meeker-n-longs.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+h1 {
+  font-size: 42px;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+h2 {
+  font-size: 36px;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+h3 {
+  font-size: 24px;
+  font-family: 'Fredericka the Great', cursive;
+}
+
+p {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+li {
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+a {
+  color: darkblue;
+}
+
+.mypic {
+  max-width: 300px;
+  padding-right: 1.25em;
+  border-radius: 50%;
+}
+
+.choralepic {
+  max-width: 300px;
+  padding-right: 1.25em;
+  border-radius: 10%;
+}
+
+.icon {
+  max-width: 50px;
+  margin-bottom: 2em;
+}
+
+.iconBig {
+  max-width: 75px;
+  max-height: 75px;
+  margin: 1em;
+}
+
+.darkBg {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 5px;
+}
+
+.darkerBg {
+  background: rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+}
+
+.ltBg {
+  background: rgba(255, 255, 255, 0.25);
+  border-radius: 5px;
+}
+
+.flexCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.topMargin {
+  margin-top: 2.5em;
+}
+
+.caption {
+  font-size: 12px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.gitAlign {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  height: 2.5em;
+}
+
+.outline {
+  text-shadow: -1px 1px 1px #c7dbf3, 1px 1px 1px #c7dbf3, 1px -1px 1px #c7dbf3, -1px -1px 1px #c7dbf3;
+}
