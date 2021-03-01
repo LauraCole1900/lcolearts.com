@@ -19,7 +19,7 @@ This application uses React to build my portfolio website.
 
 ## Links
 
-[Deployed application on GitHub Pages](https://lauracole1900.github.io/react-portfolio/)
+[Deployed application on GitHub Pages](https://lauracole1900.github.io/LauraECole)
 
 ## Screenshots
 
