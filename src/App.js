@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Navigation from "./components/navbar";
 import { About, Contact, Landing, MartialArtist, Musician, WebPortfolio } from "./components/pages";
-import Footer from "./components/footer"; 
+import Footer from "./components/footer";
 
 function App() {
   return (
