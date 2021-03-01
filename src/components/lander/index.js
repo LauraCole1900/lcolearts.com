@@ -74,7 +74,7 @@ const LandingText = () => {
 
   return (
     <div>
-      <Link to="/about" className={location.pathname === "/about" ? "mylogo active" : "mylogo"}>
+      <Link to="/LauraECole/about" className={location.pathname === "/LauraECole/about" ? "mylogo active" : "mylogo"}>
         <Texts className={'texts'} waitbt={50} wait={2000} speed={27} texts={texts} />
       </Link>
     </div>
