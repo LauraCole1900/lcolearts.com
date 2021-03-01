@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/LauraECole/static/css/main.1706aa27.chunk.css",
-    "main.js": "/LauraECole/static/js/main.603db9d8.chunk.js",
-    "main.js.map": "/LauraECole/static/js/main.603db9d8.chunk.js.map",
+    "main.js": "/LauraECole/static/js/main.104aded9.chunk.js",
+    "main.js.map": "/LauraECole/static/js/main.104aded9.chunk.js.map",
     "runtime-main.js": "/LauraECole/static/js/runtime-main.b5776fa2.js",
     "runtime-main.js.map": "/LauraECole/static/js/runtime-main.b5776fa2.js.map",
     "static/css/2.150d169a.chunk.css": "/LauraECole/static/css/2.150d169a.chunk.css",
@@ -36,6 +36,6 @@
     "static/css/2.150d169a.chunk.css",
     "static/js/2.b44044e4.chunk.js",
     "static/css/main.1706aa27.chunk.css",
-    "static/js/main.603db9d8.chunk.js"
+    "static/js/main.104aded9.chunk.js"
   ]
 }
