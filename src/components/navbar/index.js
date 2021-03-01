@@ -20,19 +20,19 @@ const Navigation = () => {
           <Link to="/LauraECole" className={location.pathname === "/" ? "navlink active" : "navlink"}>
             Home
           </Link>
-          <Link to="/about" className={location.pathname === "/about" ? "navlink active" : "navlink"}>
+          <Link to="/LauraECole/about" className={location.pathname === "/about" ? "navlink active" : "navlink"}>
             About
           </Link>
-          <Link to="/webdev" className={location.pathname === "/webdev" ? "navlink active" : "navlink"}>
+          <Link to="/LauraECole/webdev" className={location.pathname === "/webdev" ? "navlink active" : "navlink"}>
             Webdev
           </Link>
-          <Link to="/musician" className={location.pathname === "/musician" ? "navlink active" : "navlink"}>
+          <Link to="/LauraECole/musician" className={location.pathname === "/musician" ? "navlink active" : "navlink"}>
             Musician
           </Link>
-          <Link to="/martial_artist" className={location.pathname === "/martial_artist" ? "navlink active" : "navlink"}>
+          <Link to="/LauraECole/martial_artist" className={location.pathname === "/martial_artist" ? "navlink active" : "navlink"}>
             Martial Artist
           </Link>
-          <Link to="/contact" className={location.pathname === "/contact" ? "navlink active" : "navlink"}>
+          <Link to="/LauraECole/contact" className={location.pathname === "/contact" ? "navlink active" : "navlink"}>
             Contact Me
           </Link>
         </Nav>

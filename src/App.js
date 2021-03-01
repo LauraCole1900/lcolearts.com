@@ -12,11 +12,11 @@ function App() {
       <Router>
         <Navigation />
         <Container fluid className="mycontainer">
-          <Route exact path="/about" component={About} />
-          <Route exact path="/webdev" component={WebPortfolio} />
-          <Route exact path="/martial_artist" component={MartialArtist} />
-          <Route exact path="/musician" component={Musician} />
-          <Route exact path="/contact" component={Contact} />
+          <Route exact path="/LauraECole/about" component={About} />
+          <Route exact path="/LauraECole/webdev" component={WebPortfolio} />
+          <Route exact path="/LauraECole/martial_artist" component={MartialArtist} />
+          <Route exact path="/LauraECole/musician" component={Musician} />
+          <Route exact path="/LauraECole/contact" component={Contact} />
           <Route exact path={["/", "/LauraECole"]} component={Landing} />
         </Container>
         <div>
