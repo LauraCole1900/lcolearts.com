@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/LauraECole/static/css/main.1706aa27.chunk.css",
-    "main.js": "/LauraECole/static/js/main.8576b4ea.chunk.js",
-    "main.js.map": "/LauraECole/static/js/main.8576b4ea.chunk.js.map",
+    "main.css": "/LauraECole/static/css/main.0babcd2d.chunk.css",
+    "main.js": "/LauraECole/static/js/main.79b50d5b.chunk.js",
+    "main.js.map": "/LauraECole/static/js/main.79b50d5b.chunk.js.map",
     "runtime-main.js": "/LauraECole/static/js/runtime-main.b5776fa2.js",
     "runtime-main.js.map": "/LauraECole/static/js/runtime-main.b5776fa2.js.map",
     "static/css/2.150d169a.chunk.css": "/LauraECole/static/css/2.150d169a.chunk.css",
@@ -12,15 +12,16 @@
     "static/js/3.2187c892.chunk.js.map": "/LauraECole/static/js/3.2187c892.chunk.js.map",
     "index.html": "/LauraECole/index.html",
     "static/css/2.150d169a.chunk.css.map": "/LauraECole/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.1706aa27.chunk.css.map": "/LauraECole/static/css/main.1706aa27.chunk.css.map",
+    "static/css/main.0babcd2d.chunk.css.map": "/LauraECole/static/css/main.0babcd2d.chunk.css.map",
     "static/js/2.b44044e4.chunk.js.LICENSE.txt": "/LauraECole/static/js/2.b44044e4.chunk.js.LICENSE.txt",
     "static/media/MERN-icon.39d4f786.png": "/LauraECole/static/media/MERN-icon.39d4f786.png",
-    "static/media/bootstrap-icon.c9b3296d.png": "/LauraECole/static/media/bootstrap-icon.c9b3296d.png",
+    "static/media/bootstrap-icon-2.6bd21855.png": "/LauraECole/static/media/bootstrap-icon-2.6bd21855.png",
     "static/media/chorale_2.85b36c8e.jpg": "/LauraECole/static/media/chorale_2.85b36c8e.jpg",
     "static/media/css3-circle-icon.b1dc9eeb.png": "/LauraECole/static/media/css3-circle-icon.b1dc9eeb.png",
     "static/media/expressjs-icon.ae213390.png": "/LauraECole/static/media/expressjs-icon.ae213390.png",
     "static/media/html5-circle-icon.b18bb7da.png": "/LauraECole/static/media/html5-circle-icon.b18bb7da.png",
     "static/media/jquery-icon.4f4b4ce5.png": "/LauraECole/static/media/jquery-icon.4f4b4ce5.png",
+    "static/media/js-icon-2.2e10b2a2.png": "/LauraECole/static/media/js-icon-2.2e10b2a2.png",
     "static/media/materialize-icon.44368198.png": "/LauraECole/static/media/materialize-icon.44368198.png",
     "static/media/style.css": "/LauraECole/static/media/meeker-n-longs.63d5a61d.jpg",
     "static/media/mongodb-icon.c964002e.png": "/LauraECole/static/media/mongodb-icon.c964002e.png",
@@ -35,7 +36,7 @@
     "static/js/runtime-main.b5776fa2.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.b44044e4.chunk.js",
-    "static/css/main.1706aa27.chunk.css",
-    "static/js/main.8576b4ea.chunk.js"
+    "static/css/main.0babcd2d.chunk.css",
+    "static/js/main.79b50d5b.chunk.js"
   ]
 }
