@@ -8,7 +8,7 @@ p {
 }
 
 .project-card {
-  background-color: rgba(0, 0, 0, 0.5);
+  background: rgba(3, 17, 5, 0.55);
   align-self: center;
   margin: 15px;
   width: 350px;
@@ -22,7 +22,8 @@ p {
 
 .dev {
   margin: 10px;
-  background-color: darkgreen;
+  background-color: #1fad34;
+  color: #031105;
 }
 
 .card-inner {
@@ -38,7 +39,7 @@ p {
 
 .card-title {
   justify-self: center;
-  color: white;
+  color: #c7dbf3;
   font-family: 'Fredericka the Great', cursive;
   margin-top: 5px;
 }
@@ -55,7 +56,7 @@ p {
 .card-back {
   transform: rotateY(.5turn);
   background: #031105;
-  color: #d5d5d5;
+  color: #c7dbf3;
   margin: 0 auto;
 }
 
@@ -64,7 +65,7 @@ p {
 }
 
 .btn {
-  background-color: #d5d5d5;
+  background-color: #c7dbf3;
   color: #031105;
   border: 3px solid #031105;
   border-radius: 10px;
@@ -74,13 +75,13 @@ p {
 }
 
 .btn:hover {
-  color: #a5a5a5;
+  color: #c7dbf3;
   background-color: #031105;
-  border: 3px solid #a5a5a5;
+  border: 3px solid #c7dbf3;
 }
 
 .btn:visited {
-  background-color: #d5d5d5;
+  background-color: #c7dbf3;
   color: #031105;
   border: 3px solid #031105;
 }

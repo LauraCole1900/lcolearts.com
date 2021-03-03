@@ -4,7 +4,7 @@ import Row from "react-bootstrap/Row";
 import Col from "react-bootstrap/Col";
 import Image from "react-bootstrap/Image";
 import linkedin from "../../pix/linkedin-icon-128px.png";
-import githublt from "../../pix/GitHub-Mark-Light-120px-plus.png";
+import githublt from "../../pix/github-mark-light.png";
 import "./style.css";
 
 const Footer = () => {

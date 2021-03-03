@@ -3,8 +3,8 @@
   left: 0;
   bottom: 0;
   width: 100%;
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
-  color: #d5d5d5;
+  background: rgba(3, 17, 5, 0.55);
+  color: #c7dbf3;
 }
 
 .icon {

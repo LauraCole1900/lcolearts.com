@@ -1,25 +1,30 @@
 .navbar {
-  background: rgba(0, 0, 0, 0.5);
+  background: rgba(3, 17, 5, 0.55);
   width: 100%;
   font-size: 16px;
+  border-radius: 0;
 }
 
 .navlink {
   padding: 1em;
-  color: #d5d5d5;
+  color: #c7dbf3;
   font-family: 'Fredericka the Great', cursive;
 }
-
+.navlink:hover {
+  color: #408ae1;
+}
 .navlink:visited {
-  color: #c5c5c5;
+  color: #e2e2e2;
 }
 
 .mylogo { 
-  color: #d5d5d5;
+  color: #c7dbf3;
   font-size: 24px;
   font-family: 'Fredericka the Great', cursive;
 }
-
+.mylogo:hover {
+  color: #408ae1;
+}
 .mylogo:visited {
-  color: #c5c5c5;
+  color: #e2e2e2;
 }
