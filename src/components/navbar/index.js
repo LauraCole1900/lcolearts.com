@@ -10,7 +10,7 @@ const Navigation = () => {
   return (
     <Navbar expand="sm" className="navbar">
       <Navbar.Brand>
-        <Link to="/about" className={location.pathname === "/about" ? "mylogo active" : "mylogo"}>
+        <Link to="/LauraECole/about" className={location.pathname === "/LauraECole/about" ? "mylogo active" : "mylogo"}>
           Laura Cole
         </Link>
       </Navbar.Brand>

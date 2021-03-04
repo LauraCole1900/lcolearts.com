@@ -10,21 +10,16 @@
   color: #c7dbf3;
   font-family: 'Fredericka the Great', cursive;
 }
-.navlink:hover {
-  color: #408ae1;
-}
-.navlink:visited {
-  color: #e2e2e2;
-}
 
 .mylogo { 
   color: #c7dbf3;
   font-size: 24px;
   font-family: 'Fredericka the Great', cursive;
 }
-.mylogo:hover {
+
+:is(.navlink:hover, .mylogo:hover) {
   color: #408ae1;
 }
-.mylogo:visited {
+:is(.navlink:visited, .mylogo:visited) {
   color: #e2e2e2;
 }

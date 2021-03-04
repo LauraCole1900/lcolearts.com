@@ -38,7 +38,7 @@ class WebPortfolio extends Component {
                 <h3>Double-click any project for more information</h3>
               </Col>
               <Col sm={2}>
-                <p className="gitAlign">See more on &nbsp;<a href="https://github.com/LauraCole1900" rel="noreferrer noopener" target="_blank"><Image fluid src={githubicon} alt="GitHub icon" className="icon" /></a></p>
+                <p className="flexEnd">See more on &nbsp;<a href="https://github.com/LauraCole1900" rel="noreferrer noopener" target="_blank"><Image fluid src={githubicon} alt="GitHub icon" className="icon" /></a></p>
               </Col>
             </Row>
           </Col>

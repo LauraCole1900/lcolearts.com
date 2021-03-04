@@ -76,11 +76,24 @@ a {
   border-radius: 2px;
 }
 
+.flexStart {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
 .flexCenter {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+}
+
+.flexEnd {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  height: 2.5em;
 }
 
 .topMargin {
@@ -90,13 +103,6 @@ a {
 .caption {
   font-size: 12px;
   font-family: 'Open Sans', sans-serif;
-}
-
-.gitAlign {
-  display: flex;
-  align-items: center;
-  justify-content: flex-end;
-  height: 2.5em;
 }
 
 .outline {
