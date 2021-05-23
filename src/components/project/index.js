@@ -4,7 +4,7 @@ import "./style.css";
 
 // Flip cards code from here: https://codepen.io/danishyma/pen/dyXEjev
 
-function ProjectCard(props) {
+const ProjectCard = (props) => {
 
   const handleClick = () => {
     document.querySelectorAll('.card-inner').forEach(item => {

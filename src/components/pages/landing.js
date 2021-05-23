@@ -3,7 +3,7 @@ import Container from "react-bootstrap/Container";
 import LandingText from "../lander";
 import "./style.css"
 
-function Landing() {
+const Landing = () => {
   return (
     <Container fluid>
       <LandingText 

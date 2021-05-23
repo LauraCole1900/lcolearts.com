@@ -3,7 +3,7 @@ import { Col, Container, Image, Row } from "react-bootstrap";
 import mypic from "../../pix/profile_pic_5.jpg";
 import "./style.css";
 
-function About() {
+const About = () => {
   return (
     <Container fluid>
       <Row>

@@ -6,7 +6,7 @@ import Navigation from "./components/navbar";
 import { About, Contact, Landing, MartialArtist, Musician, WebPortfolio } from "./components/pages";
 import Footer from "./components/footer";
 
-function App() {
+const App = () => {
   return (
     <div>
       <Router>

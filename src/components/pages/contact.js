@@ -5,7 +5,7 @@ import github from "../../pix/github-mark-dark.png";
 import resume from "../../pix/resume-document-icon.png";
 import "./style.css";
 
-function Contact() {
+const Contact = () => {
   return (
     <Container fluid>
       <Row>
