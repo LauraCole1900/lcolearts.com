@@ -50,7 +50,7 @@ This project is intended to be used as my website and portfolio.
 
 ## Technologies Used
 
-Node.js, React
+Node.js, React, Typed.js
 
 ## Tests
 
@@ -58,7 +58,7 @@ npm run test
 
 ## Credits
 
-Landing page animation code provided by [Orkun Tümer](https://codepen.io/tumerorkun) on CodePen
+Typed.js was developed by [Matt Boldt](https://github.com/mattboldt/typed.js/)
 
 Card animation code provided by [Daniela Schmayev](https://codepen.io/danishyma) on CodePen
 
