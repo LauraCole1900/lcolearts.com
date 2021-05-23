@@ -11,7 +11,6 @@ function Landing() {
         wait={3000}
         waitbt={30}
         speed={30}
-        // op={number}
       />
     </Container>
   );

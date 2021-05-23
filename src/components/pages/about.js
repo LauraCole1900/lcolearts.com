@@ -1,8 +1,5 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
+import { Col, Container, Image, Row } from "react-bootstrap";
 import mypic from "../../pix/profile_pic_5.jpg";
 import "./style.css";
 

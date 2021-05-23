@@ -1,8 +1,5 @@
 import React from "react";
-import Container from "react-bootstrap/Container";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import Image from "react-bootstrap/Image";
+import { Col, Container, Image, Row} from "react-bootstrap";
 import linkedin from "../../pix/linkedin-icon-128px.png"
 import github from "../../pix/github-mark-dark.png";
 import resume from "../../pix/resume-document-icon.png";

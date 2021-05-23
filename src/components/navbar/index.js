@@ -1,7 +1,6 @@
 import React from "react";
 import { Link, useLocation } from "react-router-dom";
-import Navbar from "react-bootstrap/Navbar";
-import Nav from "react-bootstrap/Nav";
+import { Nav, Navbar } from "react-bootstrap";
 import "./style.css";
 
 const Navigation = () => {
