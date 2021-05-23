@@ -13,10 +13,12 @@ const LandingText = () => {
         "WEB DEVELOPER",
         "MUSICIAN",
         "MARTIAL ARTIST",
-        "CLICK TO ENTER"
+        "CLICK TO ENTER^1500"
       ],
       typeSpeed: 75,
-      backSpeed: 50
+      backSpeed: 50,
+      loop: true,
+      showCursor: false
     };
     const typed = new Typed(".texts", options)
 
