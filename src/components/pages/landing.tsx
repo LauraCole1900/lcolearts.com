@@ -6,12 +6,7 @@ import "./style.css"
 const Landing = () => {
   return (
     <Container fluid>
-      <LandingText 
-        texts={[]}
-        wait={3000}
-        waitbt={30}
-        speed={30}
-      />
+      <LandingText />
     </Container>
   );
 }

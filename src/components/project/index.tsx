@@ -4,10 +4,11 @@ import "./style.css";
 
 // Flip cards code from here: https://codepen.io/danishyma/pen/dyXEjev
 
-const ProjectCard = (props) => {
+const ProjectCard = (props: any) => {
 
   const handleClick = () => {
-    document.querySelectorAll('.card-inner').forEach(item => {
+    const cardInner = document.querySelectorAll('.card-inner') as NodeListOf<HTMLElement>
+    cardInner.forEach(item => {
       var timeout;
       clearTimeout(timeout);
       item.addEventListener('click', el => {
@@ -41,10 +42,10 @@ const ProjectCard = (props) => {
               {props.tech}
             </Card.Text>
             <div className="btndiv">
-              <Button className="btn" href={props.deployed} rel="noreferrer noopener" target="_blank">{props.deploy_button_label}</Button>
+              <Button className="btn" href={props.deployed} target="_blank">{props.deploy_button_label}</Button>
             </div>
             <div className="btndiv">
-              <Button className="btn" href={props.repo} rel="noreferrer noopener" target="_blank">GitHub Repo</Button>
+              <Button className="btn" href={props.repo} target="_blank">GitHub Repo</Button>
             </div>
           </Card.Body>
         </div>
