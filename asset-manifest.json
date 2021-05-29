@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/LauraECole/static/css/main.008dff46.chunk.css",
-    "main.js": "/LauraECole/static/js/main.faddabd8.chunk.js",
-    "main.js.map": "/LauraECole/static/js/main.faddabd8.chunk.js.map",
+    "main.js": "/LauraECole/static/js/main.b4cad6e8.chunk.js",
+    "main.js.map": "/LauraECole/static/js/main.b4cad6e8.chunk.js.map",
     "runtime-main.js": "/LauraECole/static/js/runtime-main.13f85375.js",
     "runtime-main.js.map": "/LauraECole/static/js/runtime-main.13f85375.js.map",
     "static/css/2.150d169a.chunk.css": "/LauraECole/static/css/2.150d169a.chunk.css",
@@ -30,13 +30,14 @@
     "static/media/npm-icon.5904c46f.png": "/LauraECole/static/media/npm-icon.5904c46f.png",
     "static/media/profile_pic_5.46b5b3ca.jpg": "/LauraECole/static/media/profile_pic_5.46b5b3ca.jpg",
     "static/media/react-bootstrap-icon.8dff8d5a.png": "/LauraECole/static/media/react-bootstrap-icon.8dff8d5a.png",
-    "static/media/react-icon.cd4ab684.png": "/LauraECole/static/media/react-icon.cd4ab684.png"
+    "static/media/react-icon.cd4ab684.png": "/LauraECole/static/media/react-icon.cd4ab684.png",
+    "static/media/ts-icon.e32e5ce6.png": "/LauraECole/static/media/ts-icon.e32e5ce6.png"
   },
   "entrypoints": [
     "static/js/runtime-main.13f85375.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.d47bf8bc.chunk.js",
     "static/css/main.008dff46.chunk.css",
-    "static/js/main.faddabd8.chunk.js"
+    "static/js/main.b4cad6e8.chunk.js"
   ]
 }
