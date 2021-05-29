@@ -8,6 +8,7 @@ import bootstrapicon from "../../pix/bootstrap-icon-2.png";
 import materializeicon from "../../pix/materialize-icon.png"
 import jsicon from "../../pix/js-icon-2.png";
 import jqueryicon from "../../pix/jquery-icon.png";
+import tsicon from "../../pix/ts-icon.png";
 import nodejsicon from "../../pix/nodejs-icon.png";
 import npmicon from "../../pix/npm-icon.png";
 import expressjsicon from "../../pix/expressjs-icon.png";
@@ -75,6 +76,7 @@ class WebPortfolio extends Component {
             <Image fluid src={materializeicon} alt="Materialize" className="iconBig" />
             <Image fluid src={jsicon} alt="JavaScript" className="iconBig" />
             <Image fluid src={jqueryicon} alt="jQuery" className="iconBig" />
+            <Image fluid src={tsicon} alt="TypeScript" className="iconBig" />
             <Image fluid src={nodejsicon} alt="Node.js" className="iconBig darkBg" />
             <Image fluid src={npmicon} alt="NPM" className="iconBig" />
             <Image fluid src={expressjsicon} alt="Express" className="iconBig darkBg" />
