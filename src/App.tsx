@@ -1,6 +1,6 @@
 import 'bootstrap/dist/css/bootstrap.min.css';
 import React from "react";
-import { BrowserRouter as Router, Route } from "react-router-dom";
+import { HashRouter as Router, Route } from "react-router-dom";
 import Container from "react-bootstrap/Container";
 import Navigation from "./components/navbar";
 import { About, Contact, Landing, MartialArtist, Musician, WebPortfolio } from "./components/pages";
@@ -12,12 +12,12 @@ const App = () => {
       <Router>
         <Navigation />
         <Container fluid className="mycontainer">
-          <Route exact path="/LauraECole/about" component={About} />
-          <Route exact path="/LauraECole/webdev" component={WebPortfolio} />
-          <Route exact path="/LauraECole/martial_artist" component={MartialArtist} />
-          <Route exact path="/LauraECole/musician" component={Musician} />
-          <Route exact path="/LauraECole/contact" component={Contact} />
-          <Route exact path={["/", "/LauraECole"]} component={Landing} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/webdev" component={WebPortfolio} />
+          <Route exact path="/martial_artist" component={MartialArtist} />
+          <Route exact path="/musician" component={Musician} />
+          <Route exact path="/contact" component={Contact} />
+          <Route exact path={["/"]} component={Landing} />
         </Container>
         <div>
           <p>&nbsp;</p>
