@@ -11,8 +11,9 @@ const typeDefs = gql`
   # GET one entry
   # GET all entries
   type Query {
-    GetAllEntries: [Entry]!
-    GetOneEntry(id: String): Entry
+    getAllEntries: [Entry]!
+    getMe: Entry
+    getOneEntry(id: String): Entry
   }
 
   type Mutation {

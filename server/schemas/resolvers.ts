@@ -2,10 +2,13 @@ const { Entry } = require("../models");
 
 const resolvers = {
   Query: {
-    GetAllEntries: async () => {
+    getAllEntries: async () => {
       return await Entry.find({})
     },
-    GetOneEntry: async (_, id) => {
+    getMe: async () => {
+      return await Entry.find({})
+    },
+    getOneEntry: async (_, id) => {
       return await Entry.findOne(id)
     },
   },

@@ -1,0 +1,43 @@
+{
+  "files": {
+    "main.css": "/LauraECole/static/css/main.008dff46.chunk.css",
+    "main.js": "/LauraECole/static/js/main.8481ec73.chunk.js",
+    "main.js.map": "/LauraECole/static/js/main.8481ec73.chunk.js.map",
+    "runtime-main.js": "/LauraECole/static/js/runtime-main.13f85375.js",
+    "runtime-main.js.map": "/LauraECole/static/js/runtime-main.13f85375.js.map",
+    "static/css/2.150d169a.chunk.css": "/LauraECole/static/css/2.150d169a.chunk.css",
+    "static/js/2.bfa41caa.chunk.js": "/LauraECole/static/js/2.bfa41caa.chunk.js",
+    "static/js/2.bfa41caa.chunk.js.map": "/LauraECole/static/js/2.bfa41caa.chunk.js.map",
+    "static/js/3.7eb9fb6d.chunk.js": "/LauraECole/static/js/3.7eb9fb6d.chunk.js",
+    "static/js/3.7eb9fb6d.chunk.js.map": "/LauraECole/static/js/3.7eb9fb6d.chunk.js.map",
+    "index.html": "/LauraECole/index.html",
+    "static/css/2.150d169a.chunk.css.map": "/LauraECole/static/css/2.150d169a.chunk.css.map",
+    "static/css/main.008dff46.chunk.css.map": "/LauraECole/static/css/main.008dff46.chunk.css.map",
+    "static/js/2.bfa41caa.chunk.js.LICENSE.txt": "/LauraECole/static/js/2.bfa41caa.chunk.js.LICENSE.txt",
+    "static/media/MERN-icon.39d4f786.png": "/LauraECole/static/media/MERN-icon.39d4f786.png",
+    "static/media/bootstrap-icon-2.6bd21855.png": "/LauraECole/static/media/bootstrap-icon-2.6bd21855.png",
+    "static/media/chorale_2.85b36c8e.jpg": "/LauraECole/static/media/chorale_2.85b36c8e.jpg",
+    "static/media/css3-circle-icon.b1dc9eeb.png": "/LauraECole/static/media/css3-circle-icon.b1dc9eeb.png",
+    "static/media/expressjs-icon.ae213390.png": "/LauraECole/static/media/expressjs-icon.ae213390.png",
+    "static/media/html5-circle-icon.b18bb7da.png": "/LauraECole/static/media/html5-circle-icon.b18bb7da.png",
+    "static/media/jquery-icon.4f4b4ce5.png": "/LauraECole/static/media/jquery-icon.4f4b4ce5.png",
+    "static/media/js-icon-2.2e10b2a2.png": "/LauraECole/static/media/js-icon-2.2e10b2a2.png",
+    "static/media/materialize-icon.44368198.png": "/LauraECole/static/media/materialize-icon.44368198.png",
+    "static/media/style.css": "/LauraECole/static/media/meeker-n-longs.63d5a61d.jpg",
+    "static/media/mongodb-icon.c964002e.png": "/LauraECole/static/media/mongodb-icon.c964002e.png",
+    "static/media/mysql-icon-2.167c8855.png": "/LauraECole/static/media/mysql-icon-2.167c8855.png",
+    "static/media/nodejs-icon.4dcac25b.png": "/LauraECole/static/media/nodejs-icon.4dcac25b.png",
+    "static/media/npm-icon.5904c46f.png": "/LauraECole/static/media/npm-icon.5904c46f.png",
+    "static/media/profile_pic_5.46b5b3ca.jpg": "/LauraECole/static/media/profile_pic_5.46b5b3ca.jpg",
+    "static/media/react-bootstrap-icon.8dff8d5a.png": "/LauraECole/static/media/react-bootstrap-icon.8dff8d5a.png",
+    "static/media/react-icon.cd4ab684.png": "/LauraECole/static/media/react-icon.cd4ab684.png",
+    "static/media/ts-icon.e32e5ce6.png": "/LauraECole/static/media/ts-icon.e32e5ce6.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.13f85375.js",
+    "static/css/2.150d169a.chunk.css",
+    "static/js/2.bfa41caa.chunk.js",
+    "static/css/main.008dff46.chunk.css",
+    "static/js/main.8481ec73.chunk.js"
+  ]
+}
