@@ -31,6 +31,9 @@ const Navigation = () => {
           <Link to="/martial_artist" className={location.pathname === "/martial_artist" ? "navlink active" : "navlink"}>
             Martial Artist
           </Link>
+          <Link to="/blog" className={location.pathname === "/blog" ? "navlink active" : "navlink"}>
+            Blog
+          </Link>
           <Link to="/contact" className={location.pathname === "/contact" ? "navlink active" : "navlink"}>
             Contact Me
           </Link>
