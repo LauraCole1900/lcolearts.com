@@ -1,11 +1,10 @@
-import React from "react";
+import React, { ReactElement } from "react";
 import { Button, Card } from "react-bootstrap";
 import "./style.css";
 
 // Flip cards code from here: https://codepen.io/danishyma/pen/dyXEjev
 
-const ProjectCard = (props: any) => {
-
+const ProjectCard = (props: any): ReactElement => {
   const handleClick = () => {
     const cardInner = document.querySelectorAll('.card-inner') as NodeListOf<HTMLElement>
     cardInner.forEach(item => {

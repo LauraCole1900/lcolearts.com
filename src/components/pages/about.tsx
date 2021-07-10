@@ -1,9 +1,11 @@
-import React from "react";
+import React, { ReactElement } from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
 import mypic from "../../pix/profile_pic_5.jpg";
 import "./style.css";
 
-const About = () => {
+const About = (): ReactElement => {
+
+
   return (
     <Container fluid>
       <Row>

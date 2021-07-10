@@ -1,10 +1,12 @@
-import React from "react";
+import React, { ReactElement } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { Location } from "history";
 import { Nav, Navbar } from "react-bootstrap";
 import "./style.css";
 
-const Navigation = () => {
-  const location = useLocation();
+const Navigation = (): ReactElement => {
+  const location = useLocation<Location>();
+  
 
   return (
     <Navbar expand="sm" className="navbar">

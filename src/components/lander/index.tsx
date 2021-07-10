@@ -1,9 +1,9 @@
-import React, { useEffect } from "react";
+import React, { ReactElement, useEffect } from "react";
 import { Link, useLocation } from "react-router-dom";
 import Typed from "typed.js"
 import "./style.css";
 
-const LandingText = () => {
+const LandingText = (): ReactElement => {
   const location = useLocation();
 
   useEffect(() => {

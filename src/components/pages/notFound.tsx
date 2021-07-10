@@ -1,9 +1,10 @@
 import React, { ReactElement } from "react";
 import { Link, useLocation } from "react-router-dom";
+import { Location } from "history";
 import { Button, Col, Container, Row } from "react-bootstrap";
 
 const NotFound = (): ReactElement => {
-  const location = useLocation();
+  const location = useLocation<Location>();
 
 
   return (

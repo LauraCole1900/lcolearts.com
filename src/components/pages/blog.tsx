@@ -1,5 +1,6 @@
 import React, { ReactElement } from "react";
 import { Col, Container, Row } from "react-bootstrap";
+
 const Blog = (): ReactElement => {
 
 

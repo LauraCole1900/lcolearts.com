@@ -1,8 +1,9 @@
-import React from "react";
+import React, { ReactElement } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import "./style.css"
 
-const MartialArtist = () => {
+const MartialArtist = (): ReactElement => {
+  
 
   return (
     <Container fluid>

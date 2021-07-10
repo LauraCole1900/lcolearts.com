@@ -1,10 +1,11 @@
-import React from "react";
+import React, { ReactElement } from "react";
 import { Container, Row, Col, Image } from "react-bootstrap";
 import choralepic from "../../pix/chorale_2.jpg"
 import "./style.css";
 
-const Musician = () => {
+const Musician = (): ReactElement => {
 
+  
   return (
     <Container fluid>
       <Row>

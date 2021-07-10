@@ -1,11 +1,13 @@
-import React from "react";
-import { Col, Container, Image, Row} from "react-bootstrap";
+import React, { ReactElement } from "react";
+import { Col, Container, Image, Row } from "react-bootstrap";
 import linkedin from "../../pix/linkedin-icon-128px.png"
 import github from "../../pix/github-mark-dark.png";
 import resume from "../../pix/resume-document-icon.png";
 import "./style.css";
 
-const Contact = () => {
+const Contact = (): ReactElement => {
+
+  
   return (
     <Container fluid>
       <Row>
