@@ -12,22 +12,25 @@ Object.defineProperty(exports, "__esModule", { value: true });
 const { Entry } = require("../models");
 const resolvers = {
     Query: {
-        GetAllEntries: () => __awaiter(void 0, void 0, void 0, function* () {
+        getAllEntries: () => __awaiter(void 0, void 0, void 0, function* () {
             return yield Entry.find({});
         }),
-        GetOneEntry: (_, id) => __awaiter(void 0, void 0, void 0, function* () {
-            return yield Entry.findOne(id);
+        getMe: () => __awaiter(void 0, void 0, void 0, function* () {
+            return yield Entry.find({});
+        }),
+        getOneEntry: (_, _id) => __awaiter(void 0, void 0, void 0, function* () {
+            return yield Entry.findOne(_id);
         }),
     },
     Mutation: {
-        createEntry: (_, { title, content, tags }) => __awaiter(void 0, void 0, void 0, function* () {
-            return yield Entry.create({ title, content, tags });
+        createEntry: (_, args) => __awaiter(void 0, void 0, void 0, function* () {
+            return yield Entry.create(args);
         }),
         deleteEntry: (_, _id) => __awaiter(void 0, void 0, void 0, function* () {
             return yield Entry.findOneAndDelete(_id);
         }),
-        editEntry: (_, { _id, title, content, tags }) => __awaiter(void 0, void 0, void 0, function* () {
-            return yield Entry.findOneAndUpdate({ _id, title, content, tags });
+        editEntry: (_, args) => __awaiter(void 0, void 0, void 0, function* () {
+            return yield Entry.findOneAndUpdate(args);
         }),
     }
 };

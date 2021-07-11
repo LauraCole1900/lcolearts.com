@@ -1,3 +1,3 @@
-module.exports = {
-  Entry: require("./entry"),
- };
+"use strict";
+const Entry = require("./entry");
+module.exports = { Entry };

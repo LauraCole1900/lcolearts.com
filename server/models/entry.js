@@ -1,4 +1,5 @@
 "use strict";
+Object.defineProperty(exports, "__esModule", { value: true });
 const { Schema, model } = require('mongoose');
 const entrySchema = new Schema({
     title: {
@@ -19,4 +20,4 @@ const entrySchema = new Schema({
     }
 });
 const Entry = model("Entry", entrySchema);
-module.exports = Entry;
+exports.default = Entry;

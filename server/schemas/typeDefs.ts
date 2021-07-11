@@ -6,6 +6,7 @@ const typeDefs = gql`
     title: String!
     content: String!
     tags: [String]
+    created_At: Date
   }
 
   # GET one entry
