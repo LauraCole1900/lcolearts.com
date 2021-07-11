@@ -9,8 +9,9 @@ const Blog = (): ReactElement => {
   const { loading, data, refetch } = useQuery(QUERY_ALL_ENTRIES, {});
   const entriesArr = data?.getAllEntries || [];
   const arrToSort = [...entriesArr];
-  const sortedEntries = arrToSort.sort((a, b) => (a.due > b.due) ? 1 : -1)
+  const sortedEntries = arrToSort.sort((a, b) => (a.created_At > b.created_At) ? 1 : -1)
 
+  
   return (
     <>
       <Container>
