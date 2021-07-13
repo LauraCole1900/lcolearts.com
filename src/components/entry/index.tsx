@@ -20,7 +20,7 @@ const EntryCard = (props: any): ReactElement => {
             <p>{entry.content}</p>
           </Card.Body>
           <Card.Footer>
-            <p>{entry.tags}</p>
+            <p>{entry.tags.join(", ")}</p>
           </Card.Footer>
         </Card>
       ))}

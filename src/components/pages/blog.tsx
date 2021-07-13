@@ -11,7 +11,7 @@ const Blog = (): ReactElement => {
   const arrToSort = [...entriesArr];
   const sortedEntries = arrToSort.sort((a, b) => (a.created_At > b.created_At) ? 1 : -1)
 
-  
+
   return (
     <>
       <Container>
@@ -29,7 +29,12 @@ const Blog = (): ReactElement => {
             </Col>
           </Row>}
         {data
-          ? <EntryCard entries={sortedEntries} />
+          ? <Row>
+            <Col sm={1}></Col>
+            <Col sm={10}>
+              <EntryCard entries={sortedEntries} />
+            </Col>
+          </Row>
           : <Row>
             <Col sm={1}></Col>
             <Col sm={10}>
