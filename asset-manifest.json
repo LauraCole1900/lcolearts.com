@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.d1a7fb38.chunk.css",
+    "main.css": "/static/css/main.d3c94370.chunk.css",
     "main.js": "/static/js/main.8f61d73b.chunk.js",
     "main.js.map": "/static/js/main.8f61d73b.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.0fcb77bc.js",
@@ -12,7 +12,7 @@
     "static/js/3.b4718997.chunk.js.map": "/static/js/3.b4718997.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.150d169a.chunk.css.map": "/static/css/2.150d169a.chunk.css.map",
-    "static/css/main.d1a7fb38.chunk.css.map": "/static/css/main.d1a7fb38.chunk.css.map",
+    "static/css/main.d3c94370.chunk.css.map": "/static/css/main.d3c94370.chunk.css.map",
     "static/js/2.483fdbf3.chunk.js.LICENSE.txt": "/static/js/2.483fdbf3.chunk.js.LICENSE.txt",
     "static/media/MERN-icon.39d4f786.png": "/static/media/MERN-icon.39d4f786.png",
     "static/media/bootstrap-icon-2.6bd21855.png": "/static/media/bootstrap-icon-2.6bd21855.png",
@@ -38,7 +38,7 @@
     "static/js/runtime-main.0fcb77bc.js",
     "static/css/2.150d169a.chunk.css",
     "static/js/2.483fdbf3.chunk.js",
-    "static/css/main.d1a7fb38.chunk.css",
+    "static/css/main.d3c94370.chunk.css",
     "static/js/main.8f61d73b.chunk.js"
   ]
 }
