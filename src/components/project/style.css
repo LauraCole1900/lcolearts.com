@@ -1,3 +1,14 @@
+:root {
+  --headerFont: 'Fredericka the Great', cursive;
+  --bodyFont: 'Open Sans', sans-serif;
+  --medGreen: #1fad34;
+  --dkGreen: #031105;
+  --ltBlue: #c7dbf3;
+  --translucentBgGreen: rgba(3, 17, 5, 0.55);
+  --translucentBgDker: rgba(0, 0, 0, 0.5);
+  --translucentBgLter: rgba(0, 0, 0, 0.2);
+}
+
 h2 {
   font-size: 30px;
   font-weight: lighter;
@@ -8,22 +19,22 @@ p {
 }
 
 .project-card {
-  background: rgba(3, 17, 5, 0.55);
+  background: var(--translucentBgGreen);
   align-self: center;
   margin: 15px;
   width: 350px;
   height: 550px;
   perspective: 1000px; 
   cursor: pointer;
-  filter: drop-shadow(5px 5px 5px rgba(0, 0, 0, 0.5));
+  filter: drop-shadow(5px 5px 5px var(--translucentBgDker));
   display: inline-table;
-  font-family: 'Open Sans', sans-serif;
+  font-family: var(--bodyFont);
 }
 
 .dev {
   margin: 10px;
-  background-color: #1fad34;
-  color: #031105;
+  background-color: var(--medGreen);
+  color: var(--dkGreen);
 }
 
 .card-inner {
@@ -31,7 +42,7 @@ p {
   width: 100%;
   height: 100%;
   text-align: center;
-  box-shadow: 1px 1px 6px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 6px var(--translucentBgLter);
   transform-style: preserve-3d;
   transform-origin: center left;
   transition: transform 1s ease-out;
@@ -39,8 +50,8 @@ p {
 
 .card-title {
   justify-self: center;
-  color: #c7dbf3;
-  font-family: 'Fredericka the Great', cursive;
+  color: var(--ltBlue);
+  font-family: var(--headerFont);
   margin-top: 5px;
 }
 
@@ -55,8 +66,8 @@ p {
 
 .card-back {
   transform: rotateY(.5turn);
-  background: #031105;
-  color: #c7dbf3;
+  background: var(--dkGreen);
+  color: var(--ltBlue);
   margin: 0 auto;
 }
 
@@ -65,9 +76,9 @@ p {
 }
 
 .btn {
-  background-color: #c7dbf3;
-  color: #031105;
-  border: 3px solid #031105;
+  background-color: var(--ltBlue);
+  color: var(--dkGreen);
+  border: 3px solid var(--dkGreen);
   border-radius: 10px;
   text-align: center;
   font-size: 18px;
@@ -75,13 +86,13 @@ p {
 }
 
 .btn:hover {
-  color: #c7dbf3;
-  background-color: #031105;
-  border: 3px solid #c7dbf3;
+  color: var(--ltBlue);
+  background-color: var(--dkGreen);
+  border: 3px solid var(--ltBlue);
 }
 
 .btn:visited {
-  background-color: #c7dbf3;
-  color: #031105;
-  border: 3px solid #031105;
+  background-color: var(--ltBlue);
+  color: var(--dkGreen);
+  border: 3px solid var(--dkGreen);
 }

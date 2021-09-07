@@ -1,10 +1,15 @@
+:root {
+  --ltBlue: #c7dbf3;
+  --translucentBgGreen: rgba(3, 17, 5, 0.55);
+}
+
 .footer {
   position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
-  background: rgba(3, 17, 5, 0.55);
-  color: #c7dbf3;
+  background: var(--translucentBgGreen);
+  color: var(--ltBlue);
 }
 
 .icon {

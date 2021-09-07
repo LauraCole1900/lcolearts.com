@@ -1,3 +1,12 @@
+:root {
+  --headerFont: "Fredericka the Great", cursive;
+  --bodyFont: "Open Sans", sans-serif;
+  --ltBlue: #c7dbf3;
+  --dkBlue: #00008b;
+  --translucentBgDk: rgba(45, 50, 30, 0.35);
+  --translucentBgLt: rgba(199, 219, 243, 0.25);
+}
+
 body {
   background-image: url("../../pix/meeker-n-longs.jpg");
   background-size: cover;
@@ -6,43 +15,52 @@ body {
 
 h1 {
   font-size: 42px;
-  font-family: 'Fredericka the Great', cursive;
 }
 
 h2 {
   font-size: 36px;
-  font-family: 'Fredericka the Great', cursive;
 }
 
 h3 {
   font-size: 24px;
-  font-family: 'Fredericka the Great', cursive;
+}
+
+h1,
+h2,
+h3 {
+  font-family: var(--headerFont);
 }
 
 p {
   font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
 }
 
 li {
   font-size: 16px;
-  font-family: 'Open Sans', sans-serif;
+}
+
+p,
+li,
+.caption {
+  font-family: var(--bodyFont);
 }
 
 a {
-  color: darkblue;
+  color: var(--dkBlue);
 }
 
-.mypic {
-  max-width: 300px;
-  padding-right: 1.25em;
-  border-radius: 50%;
-}
-
+.mypic,
 .choralepic {
   max-width: 300px;
   padding-right: 1.25em;
+}
+
+.choralepic {
   border-radius: 10%;
+}
+
+.mypic {
+  border-radius: 50%;
 }
 
 .icon {
@@ -57,42 +75,43 @@ a {
 }
 
 .darkBg {
-  background: rgba(45, 50, 30, 0.35);
+  background: var(--translucentBgDk);
   border-radius: 5px;
 }
 
 .darkBgSq {
-  background: rgba(45, 50, 30, 0.35);
+  background: var(--translucentBgDk);
   border-radius: 2px;
 }
 
 .ltBg {
-  background: rgba(199, 219, 243, 0.25);
+  background: var(--translucentBgLt);
   border-radius: 5px;
 }
 
 .ltBgSq {
-  background: rgba(199, 219, 243, 0.25);
+  background: var(--translucentBgLt);
   border-radius: 2px;
 }
 
-.flexStart {
+.flexStart,
+.flexCenter,
+.flexEnd {
   display: flex;
-  justify-content: flex-start;
   align-items: center;
 }
 
+.flexStart {
+  justify-content: flex-start;
+}
+
 .flexCenter {
-  display: flex;
   justify-content: center;
-  align-items: center;
   flex-wrap: wrap;
 }
 
 .flexEnd {
-  display: flex;
   justify-content: flex-end;
-  align-items: center;
   height: 2.5em;
 }
 
@@ -102,9 +121,9 @@ a {
 
 .caption {
   font-size: 12px;
-  font-family: 'Open Sans', sans-serif;
 }
 
 .outline {
-  text-shadow: -1px 1px 1px #c7dbf3, 1px 1px 1px #c7dbf3, 1px -1px 1px #c7dbf3, -1px -1px 1px #c7dbf3;
+  text-shadow: -1px 1px 1px var(--ltBlue), 1px 1px 1px var(--ltBlue),
+    1px -1px 1px var(--ltBlue), -1px -1px 1px var(--ltBlue);
 }
