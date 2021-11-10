@@ -72,4 +72,4 @@ If you have further questions, you can reach me at lauracole1900@comcast.net. Fo
 
 ## Badges
 
-![License badge](https://img.shields.io/badge/license-MIT-brightgreen)
+[![License badge](https://img.shields.io/badge/license-MIT-brightgreen)](./LICENSE)
