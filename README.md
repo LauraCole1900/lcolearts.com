@@ -50,7 +50,7 @@ This project is intended to be used as my website and portfolio.
 
 ## Technologies Used
 
-Node.js, React, Typed.js
+[![TypeScript](https://img.shields.io/badge/built%20with-TypeScript-007acc)](https://www.typescriptlang.org/) [![Node.js](https://img.shields.io/badge/built%20with-Node.js-3c873a)](https://nodejs.org/en/) [![React](https://img.shields.io/badge/built%20with-React-61dbfb)](https://reactjs.org/) [![React-Bootstrap](https://img.shields.io/badge/built%20with-React%20Bootstrap-61dbfb)](https://react-bootstrap.github.io/) [![Typed.js](https://img.shields.io/badge/built%20with-Typed.js-242424)](https://github.com/mattboldt/typed.js/)
 
 ## Tests
 
