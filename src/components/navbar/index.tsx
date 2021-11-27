@@ -1,42 +1,40 @@
 import React, { ReactElement } from "react";
-import { Link, useLocation } from "react-router-dom";
-import { Location } from "history";
+import { Link } from "react-router-dom";
 import { Nav, Navbar } from "react-bootstrap";
 import "./style.css";
 
 const Navigation = (): ReactElement => {
-  const location = useLocation<Location>();
   
 
   return (
     <Navbar expand="sm" className="navbar">
       <Navbar.Brand>
-        <Link to="/about" className={location.pathname === "/about" ? "mylogo active" : "mylogo"}>
+        <Link to="/about" className="mylogo">
           Laura Cole
         </Link>
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav>
-          <Link to="/" className={location.pathname === "/" ? "navlink active" : "navlink"}>
+          <Link to="/" className="navlink">
             Home
           </Link>
-          <Link to="/about" className={location.pathname === "/about" ? "navlink active" : "navlink"}>
+          <Link to="/about" className="navlink">
             About
           </Link>
-          <Link to="/webdev" className={location.pathname === "/webdev" ? "navlink active" : "navlink"}>
+          <Link to="/webdev" className="navlink">
             Webdev
           </Link>
-          <Link to="/musician" className={location.pathname === "/musician" ? "navlink active" : "navlink"}>
+          <Link to="/musician" className="navlink">
             Musician
           </Link>
-          <Link to="/martial_artist" className={location.pathname === "/martial_artist" ? "navlink active" : "navlink"}>
+          <Link to="/martial_artist" className="navlink">
             Martial Artist
           </Link>
-          <Link to="/blog" className={location.pathname === "/blog" ? "navlink active" : "navlink"}>
+          <Link to="/blog" className="navlink">
             Blog
           </Link>
-          <Link to="/contact" className={location.pathname === "/contact" ? "navlink active" : "navlink"}>
+          <Link to="/contact" className="navlink">
             Contact Me
           </Link>
         </Nav>

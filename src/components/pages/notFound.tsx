@@ -1,10 +1,9 @@
 import React, { ReactElement } from "react";
-import { Link, useLocation } from "react-router-dom";
-import { Location } from "history";
+import { Link, useNavigate } from "react-router-dom";
 import { Button, Col, Container, Row } from "react-bootstrap";
 
 const NotFound = (): ReactElement => {
-  const location = useLocation<Location>();
+  const navigate = useNavigate();
 
 
   return (
@@ -25,25 +24,25 @@ const NotFound = (): ReactElement => {
         <Row>
           <Col sm={1}></Col>
           <Col sm={10}>
-            <Link to="/" className={location.pathname === "/" ? "navlink active" : "navlink"}>
+            <Link to="/">
               <Button data-toggle="popover" title="Home" className="button">Home</Button>
             </Link>
-            <Link to="/about" className={location.pathname === "/about" ? "navlink active" : "navlink"}>
+            <Link to="/about">
               <Button data-toggle="popover" title="About" className="button">About</Button>
             </Link>
-            <Link to="/webdev" className={location.pathname === "/webdev" ? "navlink active" : "navlink"}>
+            <Link to="/webdev">
               <Button data-toggle="popover" title="Webdev Portfolio" className="button">Webdev Portfolio</Button>
             </Link>
-            <Link to="/musician" className={location.pathname === "/musician" ? "navlink active" : "navlink"}>
+            <Link to="/musician">
               <Button data-toggle="popover" title="Musician" className="button">Musician</Button>
             </Link>
-            <Link to="/martial_artist" className={location.pathname === "/martial_artist" ? "navlink active" : "navlink"}>
+            <Link to="/martial_artist">
               <Button data-toggle="popover" title="Martial Artist" className="button">Martial Artist</Button>
             </Link>
-            <Link to="/blog" className={location.pathname === "/blog" ? "navlink active" : "navlink"}>
+            <Link to="/blog">
               <Button data-toggle="popover" title="Blog" className="button">Blog</Button>
             </Link>
-            <Link to="/contact" className={location.pathname === "/contact" ? "navlink active" : "navlink"}>
+            <Link to="/contact">
               <Button data-toggle="popover" title="Contact Me" className="button">Contact Me</Button>
             </Link>
           </Col>

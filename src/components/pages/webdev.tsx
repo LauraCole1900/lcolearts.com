@@ -10,6 +10,7 @@ import gqlicon from "../../pix/graphql-icon.png";
 import htmlicon from "../../pix/html5-circle-icon.png";
 import jqueryicon from "../../pix/jquery-icon.png";
 import jsicon from "../../pix/js-icon-2.png";
+import jwticon from "../../pix/jwt-icon.png";
 import materializeicon from "../../pix/materialize-icon.png"
 import mernicon from "../../pix/MERN-icon.png";
 import mongodbicon from "../../pix/mongodb-icon.png";
@@ -80,6 +81,7 @@ class WebPortfolio extends Component {
             <Image fluid src={tsicon} alt="TypeScript" className="iconBig" />
             <Image fluid src={nodejsicon} alt="Node.js" className="iconBig darkBg" />
             <Image fluid src={npmicon} alt="NPM" className="iconBig" />
+            <Image fluid src={jwticon} alt="JWT" className="iconBig" />
             <Image fluid src={expressjsicon} alt="Express" className="iconBig darkBg" />
             <Image fluid src={gqlicon} alt="GraphQL" className="iconBig" />
             <Image fluid src={mysqlicon} alt="MySQL" className="iconBig ltBg" />

@@ -1,12 +1,12 @@
 :root {
-  --headerFont: 'Fredericka the Great', cursive;
+  --headerFont: "Fredericka the Great", cursive;
   --ltGray1: #e2e2e2;
   --ltBlue: #c7dbf3;
   --medBlue: #408ae1;
   --translucentBgGreen: rgba(3, 17, 5, 0.55);
 }
 
-.mylogo { 
+.mylogo {
   color: var(--ltBlue);
   font-size: 24px;
   font-family: var(--headerFont);
@@ -25,9 +25,9 @@
   font-family: var(--headerFont);
 }
 
-:is(.navlink:hover, .mylogo:hover) {
-  color: var(--medBlue);
-}
 :is(.navlink:visited, .mylogo:visited) {
   color: var(--ltGray1);
+}
+:is(.navlink:hover, .mylogo:hover) {
+  color: var(--medBlue);
 }

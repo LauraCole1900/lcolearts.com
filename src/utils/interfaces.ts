@@ -1,7 +1,6 @@
-import { ObjectId } from "mongoose";
 
 export interface Entry {
-  _id: ObjectId,
+  _id: String,
   title: string,
   content: string,
   tags: Array<string>,
