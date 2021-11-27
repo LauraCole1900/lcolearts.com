@@ -30,7 +30,7 @@ const App = (): ReactElement => {
               <Route path="/blog/*" element={<BlogEntry />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/" element={<Landing />} />
-              <Route element={<NotFound />} />
+              <Route path="*" element={<NotFound />} />
             </Routes>
           </Container>
           <div>
