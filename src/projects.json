@@ -89,6 +89,17 @@
   },
   {
     "id": 9,
+    "name": "Google Books Search",
+    "image": "/images/gbs-search-page-with-results.png",
+    "subtitle": "",
+    "description": "This is a MERN-stack application that incorporates JWT authentication and the Google Books API. The user can search for a book by title. If they sign up and log in, they can save searched books to a list of favorites, or delete books from their list of favorites. Any user, logged in or not, can click a like to get additional information at the Google Books site.",
+    "tech": "Technologies used: MongoDB, Express.js, React.js, Node.js, JWT",
+    "repo": "https://github.com/LauraCole1900/mern-google-book-search",
+    "deployed": "https://fabulous-googlebooks-searcher.herokuapp.com/",
+    "deploy_button_label": "Books Search"
+  },
+  {
+    "id": 10,
     "name": "Happy Holidays 2020",
     "image": "/images/holiday-ecard-2020-screenshot.png",
     "subtitle": "",
