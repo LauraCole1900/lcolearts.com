@@ -18,8 +18,8 @@ const App = (): ReactElement => {
             <Routes>
               <Route path="/about" element={<About />} />
               <Route path="/webdev" element={<WebPortfolio />} />
-              <Route path="/martial_artist" element={<MartialArtist />} />
               <Route path="/musician" element={<Musician />} />
+              <Route path="/martial_artist" element={<MartialArtist />} />
               <Route path="/contact" element={<Contact />} />
               <Route path="/" element={<Landing />} />
               <Route path="*" element={<NotFound />} />

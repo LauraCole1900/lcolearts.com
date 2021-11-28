@@ -4,7 +4,7 @@ import { Nav, Navbar } from "react-bootstrap";
 import "./style.css";
 
 const Navigation = (): ReactElement => {
-  
+
 
   return (
     <Navbar expand="sm" className="navbar">
@@ -31,9 +31,9 @@ const Navigation = (): ReactElement => {
           <Link to="/martial_artist" className="navlink">
             Martial Artist
           </Link>
-          <Link to="/blog" className="navlink">
+          <a href="https://lcolearts-blog.herokuapp.com/" className="navlink">
             Blog
-          </Link>
+          </a>
           <Link to="/contact" className="navlink">
             Contact Me
           </Link>
