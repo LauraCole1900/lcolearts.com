@@ -1,4 +1,4 @@
-# React Website
+# My Website
 
 ## Table of Contents
 
@@ -19,7 +19,7 @@ This application uses React to build my portfolio website.
 
 ## Links
 
-[Deployed application on GitHub Pages](https://lauracole1900.github.io/LauraECole)
+[Deployed application on GitHub Pages](https://lcolearts.com/#/)
 
 ## Screenshots
 
@@ -72,4 +72,4 @@ If you have further questions, you can reach me at lauracole1900@comcast.net. Fo
 
 ## Badges
 
-[![License badge](https://img.shields.io/badge/license-MIT-brightgreen)](./LICENSE)
+[![License badge](https://img.shields.io/badge/license-MIT-031105)](./LICENSE)
