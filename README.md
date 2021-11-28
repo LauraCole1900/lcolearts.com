@@ -62,6 +62,8 @@ Typed.js was developed by [Matt Boldt](https://github.com/mattboldt/typed.js/)
 
 Card animation code provided by [Daniela Schmayev](https://codepen.io/danishyma) on CodePen
 
+Favicon made by [Freepik]("https://www.freepik.com") from [Flaticon]("https://www.flaticon.com/")
+
 ## Contributing
 
 N/A
