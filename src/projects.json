@@ -1,6 +1,17 @@
 [
   {
     "id": 1,
+    "name": "Greeley Chorale Practice Materials",
+    "image": "/images/gcpm-lander.png",
+    "subtitle": "In Development",
+    "description": "Greeley Chorale Practice Materials application is a MERN-stack web application for easily navigating rehearsal materials for upcoming events and for facilitating communication from Chorale administration to the singers.",
+    "tech": "Technologies used: MongoDB, Mongoose, Express, Apollo/GraphQL, Node.js, React.js, React Hooks, React Bootstrap, Flexbox, JSX, JWT, CSS3, ES6",
+    "repo": "https://github.com/LauraCole1900/chorale-practice-site",
+    "deployed": "https://#",
+    "deploy_button_label": "In Development, Not Deployed"
+  },
+  {
+    "id": 2,
     "name": "Bristlecone Conference Management System",
     "image": "/images/bristlecone-light.png",
     "subtitle": "In Development",
@@ -11,7 +22,7 @@
     "deploy_button_label": "In Development, Not Deployed"
   },
   {
-    "id": 2,
+    "id": 3,
     "name": "Cool Cats Conference Planner",
     "image": "/images/cccp-main-conferences-page.png",
     "subtitle": "",
@@ -22,7 +33,7 @@
     "deploy_button_label": "Cool Cats CP"
   },
   {
-    "id": 3,
+    "id": 4,
     "name": "Couch Surfers Travel Blog",
     "image": "/images/blog-page-with-posts.png",
     "subtitle": "",
@@ -33,7 +44,7 @@
     "deploy_button_label": "Couch Surfers"
   },
   {
-    "id": 4,
+    "id": 5,
     "name": "Taco Party",
     "image": "/images/taco-party-homepage-square.png",
     "subtitle": "",
@@ -44,7 +55,7 @@
     "deploy_button_label": "Taco Party"
   },
   {
-    "id": 5,
+    "id": 6,
     "name": "Weather Dashboard",
     "image": "/images/dashboard-searched.png",
     "subtitle": "",
@@ -55,7 +66,7 @@
     "deploy_button_label": "Weather Dashboard"
   },
   {
-    "id": 6,
+    "id": 7,
     "name": "Team Profile Generator",
     "image": "/images/team-roster-screencap.png",
     "subtitle": "",
@@ -66,7 +77,7 @@
     "deploy_button_label": "Walkthrough video"
   },
   {
-    "id": 7,
+    "id": 8,
     "name": "Employee Management System",
     "image": "/images/ems-walkthrough.gif",
     "subtitle": "",
@@ -77,7 +88,7 @@
     "deploy_button_label": "Walkthrough video"
   },
   {
-    "id": 8,
+    "id": 9,
     "name": "Employee Directory",
     "image": "/images/employee-directory-screenshot.png",
     "subtitle": "",
@@ -88,7 +99,7 @@
     "deploy_button_label": "Employee Directory"
   },
   {
-    "id": 9,
+    "id": 10,
     "name": "Google Books Search",
     "image": "/images/gbs-search-page-with-results.png",
     "subtitle": "",
@@ -99,7 +110,7 @@
     "deploy_button_label": "Books Search"
   },
   {
-    "id": 10,
+    "id": 11,
     "name": "Happy Holidays 2020",
     "image": "/images/holiday-ecard-2020-screenshot.png",
     "subtitle": "",
