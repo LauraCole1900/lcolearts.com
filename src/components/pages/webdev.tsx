@@ -4,7 +4,7 @@ import ProjectCard from "../project";
 import projects from "../../projects.json";
 import bootstrapicon from "../../pix/bootstrap-icon-2.png";
 import cssicon from "../../pix/css3-circle-icon.png";
-import expressjsicon from "../../pix/expressjs-icon.png";
+import expressjsicon from "../../pix/expressjs-icon-3.png";
 import githubicon from "../../pix/github-mark-dark.png";
 import gqlicon from "../../pix/graphql-icon.png";
 import htmlicon from "../../pix/html5-circle-icon.png";
@@ -82,7 +82,7 @@ class WebPortfolio extends Component {
             <Image fluid src={nodejsicon} alt="Node.js" className="iconBig darkBg" />
             <Image fluid src={npmicon} alt="NPM" className="iconBig" />
             <Image fluid src={jwticon} alt="JWT" className="iconBig" />
-            <Image fluid src={expressjsicon} alt="Express" className="iconBig darkBg" />
+            <Image fluid src={expressjsicon} alt="Express" className="iconBig" />
             <Image fluid src={gqlicon} alt="GraphQL" className="iconBig" />
             <Image fluid src={mysqlicon} alt="MySQL" className="iconBig ltBg" />
             <Image fluid src={mongodbicon} alt="MongoDB" className="iconBig darkBg" />
