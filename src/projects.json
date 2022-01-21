@@ -4,11 +4,11 @@
     "name": "Greeley Chorale Practice Materials",
     "image": "/images/gcpm-lander.png",
     "subtitle": "In Development",
-    "description": "Greeley Chorale Practice Materials is a MERNG-stack web application to house and easily navigate rehearsal materials for upcoming events and for facilitating communication from Chorale administration to the singers.",
+    "description": "Greeley Chorale Practice Materials is a MERNG-stack web application to house and easily navigate rehearsal materials for upcoming events and for facilitating communication from Chorale administration to the singers. Use the credentials 'guest@guest.com' and 'GuestPassword' to browse the site.",
     "tech": "Technologies used: MongoDB, Mongoose, Express, Apollo/GraphQL, Node.js, React.js, React Hooks, React Bootstrap, Flexbox, JSX, JWT, CSS3, ES6",
     "repo": "https://github.com/LauraCole1900/chorale-practice-site",
-    "deployed": "https://#",
-    "deploy_button_label": "In Development, Not Deployed"
+    "deployed": "https://gcpm.herokuapp.com/",
+    "deploy_button_label": "GC Practice Materials"
   },
   {
     "id": 2,
