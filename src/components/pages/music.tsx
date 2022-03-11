@@ -32,7 +32,7 @@ const Musician = (): ReactElement => {
             </ul>
           </Row>
           <Row>
-            <h3>Music teacher, Milliken Elementary School, 8/2001-6/2018</h3>
+            <h3>Music teacher, Milliken Elementary School, 8/2001-6/2019</h3>
           </Row>
           <Row>
             <ul>
