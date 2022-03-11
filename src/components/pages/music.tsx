@@ -46,6 +46,7 @@ const Musician = (): ReactElement => {
           <Row>
             <ul>
               <li>Soloist on October 5, 2019 concert</li>
+              <li>Soloist for the Duruflé Requiem, April 9, 2022</li>
             </ul>
           </Row>
         </Col>
