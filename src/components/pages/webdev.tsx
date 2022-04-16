@@ -29,8 +29,7 @@ class WebPortfolio extends Component {
     return (
       <>
         <Row>
-          <Col sm={1}></Col>
-          <Col sm={10}>
+          <Col sm={{ span: 10, offset: 1 }}>
             <Row>
               <Col sm={12}>
                 <h1>Web Development Portfolio</h1>
@@ -47,8 +46,7 @@ class WebPortfolio extends Component {
           </Col>
         </Row>
         <Row>
-          <Col sm={1}></Col>
-          <Col sm={10}>
+          <Col sm={{ span: 10, offset: 1 }}>
             {this.state.projects.map(project => (
               <ProjectCard
                 id={project.id}
@@ -66,12 +64,10 @@ class WebPortfolio extends Component {
           </Col>
         </Row>
         <Row className="topMargin">
-          <Col sm={1}></Col>
-          <Col sm={10}><h1 className="outline">Technical Skills</h1></Col>
+          <Col sm={{ span: 10, offset: 1 }}><h1 className="outline">Technical Skills</h1></Col>
         </Row>
         <Row className="flexCenter">
-          <Col sm={1}></Col>
-          <Col sm={10}>
+          <Col sm={{ span: 10, offset: 1 }}>
             <Image fluid src={htmlicon} alt="HTML5" className="iconBig darkBg" />
             <Image fluid src={cssicon} alt="CSS3" className="iconBig darkBg" />
             <Image fluid src={bootstrapicon} alt="Bootstrap" className="iconBig" />
@@ -94,8 +90,7 @@ class WebPortfolio extends Component {
           <Col sm={1}></Col>
         </Row>
         <Row>
-          <Col sm={1}></Col>
-          <Col sm={10}>
+          <Col sm={{ span: 10, offset: 1 }}>
           </Col>
           <Col sm={1}></Col>
         </Row>

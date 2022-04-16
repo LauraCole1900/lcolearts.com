@@ -5,20 +5,18 @@ import "./style.css";
 
 const Musician = (): ReactElement => {
 
-  
+
   return (
     <Container fluid>
       <Row>
-        <Col sm={1}></Col>
-        <Col sm={10}>
+        <Col sm={{ span: 10, offset: 1 }}>
           <Row>
             <h1>Musician</h1>
           </Row>
         </Col>
       </Row>
       <Row>
-        <Col sm={1}></Col>
-        <Col sm={7}>
+        <Col sm={{ span: 7, offset: 1 }}>
           <Row>
             <h2>Mezzo-Soprano</h2>
           </Row>

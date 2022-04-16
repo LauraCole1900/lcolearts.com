@@ -10,20 +10,17 @@ const NotFound = (): ReactElement => {
     <>
       <Container>
         <Row>
-          <Col sm={1}></Col>
-          <Col sm={10}>
+          <Col sm={{ span: 10, offset: 1 }}>
             <h1>404 Not Found</h1>
           </Col>
         </Row>
         <Row>
-          <Col sm={1}></Col>
-          <Col sm={10}>
+          <Col sm={{ span: 10, offset: 1 }}>
             <p>You've discovered uncharted territory! Return to familiar areas here:</p>
           </Col>
         </Row>
         <Row>
-          <Col sm={1}></Col>
-          <Col sm={10}>
+          <Col sm={{ span: 10, offset: 1 }}>
             <Link to="/">
               <Button data-toggle="popover" title="Home" className="button">Home</Button>
             </Link>
@@ -39,9 +36,9 @@ const NotFound = (): ReactElement => {
             <Link to="/martial_artist">
               <Button data-toggle="popover" title="Martial Artist" className="button">Martial Artist</Button>
             </Link>
-            <Link to="/blog">
+            <a href="https://lcolearts-blog.herokuapp.com/" rel="noreferrer noopener">
               <Button data-toggle="popover" title="Blog" className="button">Blog</Button>
-            </Link>
+            </a>
             <Link to="/contact">
               <Button data-toggle="popover" title="Contact Me" className="button">Contact Me</Button>
             </Link>

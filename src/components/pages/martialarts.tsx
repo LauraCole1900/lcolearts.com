@@ -3,19 +3,17 @@ import { Container, Row, Col } from "react-bootstrap";
 import "./style.css"
 
 const MartialArtist = (): ReactElement => {
-  
+
 
   return (
     <Container fluid>
       <Row>
-        <Col sm={1}></Col>
-        <Col sm={10}>
+        <Col sm={{ span: 10, offset: 1 }}>
           <h1>Martial Artist</h1>
         </Col>
       </Row>
       <Row>
-        <Col sm={1}></Col>
-        <Col sm={10}>
+        <Col sm={{ span: 10, offset: 1 }}>
           <h3><a href="https://www.skski.net/" rel="noreferrer noopener" target="_blank">Kosho Ryu Kempo</a></h3>
           <ul>
             <li>Years: 2014-present</li>
@@ -25,8 +23,7 @@ const MartialArtist = (): ReactElement => {
         </Col>
       </Row>
       <Row>
-        <Col sm={1}></Col>
-        <Col sm={10}>
+        <Col sm={{ span: 10, offset: 1 }}>
           <h3>Shotokan</h3>
           <ul>
             <li>Years: 2018-present</li>
@@ -37,8 +34,7 @@ const MartialArtist = (): ReactElement => {
         </Col>
       </Row>
       <Row>
-        <Col sm={1}></Col>
-        <Col sm={10}>
+        <Col sm={{ span: 10, offset: 1 }}>
           <h3><a href="http://www.koryu-uchinadi.com/" rel="noreferrer noopener" target="_blank">Koryu Uchinadi</a></h3>
           <ul>
             <li>Years: 2018-present</li>

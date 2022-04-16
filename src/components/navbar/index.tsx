@@ -31,7 +31,7 @@ const Navigation = (): ReactElement => {
           <Link to="/martial_artist" className="navlink">
             Martial Artist
           </Link>
-          <a href="https://lcolearts-blog.herokuapp.com/" className="navlink">
+          <a href="https://lcolearts-blog.herokuapp.com/" className="navlink" rel="noreferrer noopener">
             Blog
           </a>
           <Link to="/contact" className="navlink">
