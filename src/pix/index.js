@@ -3,6 +3,7 @@ export { default as Bootstrap1 } from "./bootstrap-icon.png";
 export { default as Bootstrap2 } from "./bootstrap-icon-2.png";
 export { default as Chorale } from "./chorale_2.jpg";
 export { default as CssCircle } from "./css3-circle-icon.png";
+export { default as Email } from "./email-light-2.png";
 export { default as Express1 } from "./expressjs-icon.png";
 export { default as Express2 } from "./expressjs-icon-2.png";
 export { default as Express3 } from "./expressjs-icon-3.png";

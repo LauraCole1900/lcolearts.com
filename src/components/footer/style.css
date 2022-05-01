@@ -3,6 +3,11 @@
   --translucentBgGreen: rgba(3, 17, 5, 0.55);
 }
 
+.center {
+  display: flex;
+  align-items: center;
+}
+
 .footer {
   position: fixed;
   left: 0;
