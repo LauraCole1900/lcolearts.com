@@ -1,10 +1,11 @@
-import React, { ReactElement, useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
-import Typed from "typed.js"
+import { ReactElement, useEffect } from "react";
+import { Link, Location, useLocation } from "react-router-dom";
+import Typed from "typed.js";
 import "./style.css";
 
+
 const LandingText = (): ReactElement => {
-  const location = useLocation();
+  const location: Location = useLocation();
 
   useEffect(() => {
     const options = {

@@ -1,7 +1,8 @@
-import React, { ReactElement } from "react";
+import { ReactElement } from "react";
 import { Link } from "react-router-dom";
 import { Nav, Navbar } from "react-bootstrap";
 import "./style.css";
+
 
 const Navigation = (): ReactElement => {
 

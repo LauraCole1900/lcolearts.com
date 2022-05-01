@@ -1,7 +1,8 @@
-import React, { ReactElement } from "react";
+import { ReactElement } from "react";
 import { Col, Container, Image, Row } from "react-bootstrap";
-import mypic from "../../pix/profile_pic_5.jpg";
+import { Profile } from "../../pix";
 import "./style.css";
+
 
 const About = (): ReactElement => {
 
@@ -15,7 +16,7 @@ const About = (): ReactElement => {
       </Row>
       <Row>
         <Col sm={{ span: 10, offset: 1 }}>
-          <Image fluid src={mypic} alt="Laura Cole" className="mypic float-left" />
+          <Image fluid src={Profile} alt="Laura Cole" className="mypic float-left" />
           <p className="biotext">I grew up in LaSalle, a small town in northeastern Colorado. After graduating from the <a href="http://www.unco.edu" rel="noreferrer noopener" target="_blank">University of Northern Colorado</a> Lab School in nearby Greeley, I went on to earn my Bachelor of Music Education from the university proper. I then went to work at Milliken Elementary School as the music teacher and stayed there for several years before deciding to pursue web development.</p>
 
           <p className="biotext">In September of 2020, I started the University of Denver Coding Bootcamp program to certify as a full-stack web developer. I have always enjoyed both helping people and creative endeavors, and web development seems a good way to combine those passions. I have worked in JavaScript/jQuery, Node.js, Express, Express-Handlebars, MySQL/Sequelize, Mongo/Mongoose, ECMAScript6, and React. Examples of my work can be found on my portfolio page and on <a href="https://github.com/LauraCole1900" rel="noreferrer noopener" target="_blank">my GitHub page</a>.</p>

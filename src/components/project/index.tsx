@@ -1,13 +1,15 @@
-import React, { ReactElement } from "react";
+import { ReactElement } from "react";
 import { Button, Card } from "react-bootstrap";
+import { Project } from "../../utils/interfaces";
 import "./style.css";
 
 // Flip cards code from here: https://codepen.io/danishyma/pen/dyXEjev
 
-const ProjectCard = (props: any): ReactElement => {
-  const handleClick = () => {
-    const cardInner = document.querySelectorAll('.card-inner') as NodeListOf<HTMLElement>
-    cardInner.forEach(item => {
+
+const ProjectCard = (props: Project): ReactElement => {
+  const handleClick = (): void => {
+    const cardInner: NodeListOf<HTMLElement> = document.querySelectorAll('.card-inner') as NodeListOf<HTMLElement>
+    cardInner.forEach((item: HTMLElement): void => {
       var timeout;
       clearTimeout(timeout);
       item.addEventListener('click', el => {
@@ -17,7 +19,7 @@ const ProjectCard = (props: any): ReactElement => {
         else {
           item.style.transform = "rotateY(180deg) translateX(-100%)";
         }
-        timeout = setTimeout(function () {
+        timeout = setTimeout(function (): void {
           item.style.transform = "rotateY(0deg)";
         }, 35000);
       })

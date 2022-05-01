@@ -1,7 +1,8 @@
-import React, { ReactElement } from "react";
-import { Container, Row, Col, Image } from "react-bootstrap";
-import choralepic from "../../pix/chorale_2.jpg"
+import { ReactElement } from "react";
+import { Col, Container, Row, Image } from "react-bootstrap";
+import { Chorale } from "../../pix";
 import "./style.css";
+
 
 const Musician = (): ReactElement => {
 
@@ -49,7 +50,7 @@ const Musician = (): ReactElement => {
           </Row>
         </Col>
         <Col sm={3}>
-          <Image fluid src={choralepic} alt="Laura Cole" className="choralepic" />
+          <Image fluid src={Chorale} alt="Laura Cole" className="choralepic" />
           <p className="caption">Picture by Susan McKenzie, used by permission</p>
         </Col>
       </Row>

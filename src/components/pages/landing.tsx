@@ -1,7 +1,8 @@
-import React, { ReactElement } from "react";
+import { ReactElement } from "react";
 import Container from "react-bootstrap/Container";
 import LandingText from "../lander";
-import "./style.css"
+import "./style.css";
+
 
 const Landing = (): ReactElement => {
 
