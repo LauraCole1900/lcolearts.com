@@ -23,6 +23,7 @@ export { default as MySQL } from "./mysql-icon-2.png";
 export { default as Nextjs } from "./nextjs-icon.png";
 export { default as Node } from "./nodejs-icon.png";
 export { default as Npm } from "./npm-icon.png";
+export { default as Phone } from "./phone-white-transparent-icon-426x425.png";
 export { default as Profile } from "./profile_pic_5.jpg";
 export { default as ReactBootstrap } from "./react-bootstrap-icon.png";
 export { default as ReactIcon } from "./react-icon.png";

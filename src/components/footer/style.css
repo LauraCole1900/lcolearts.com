@@ -6,6 +6,7 @@
 .center {
   display: flex;
   align-items: center;
+  margin-top: .75rem;
 }
 
 .footer {
@@ -19,5 +20,13 @@
 
 .icon {
   max-width: 25px;
+  margin-top: 1.5em;
+}
+
+.ltBgFooter {
+  background: var(--ltBlue);
+  border-radius: 2px;
+  max-width: 35px;
   margin-top: 1em;
+  padding: 5px;
 }
