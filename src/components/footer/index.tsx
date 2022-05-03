@@ -6,15 +6,6 @@ import "./style.css";
 
 const Footer = (): ReactElement => {
 
-  // const urlArray: string[] = window.location.href.split("/");
-  // const urlWhere: string | undefined = urlArray.at(-1);
-
-  // const [render, setRender] = useState<boolean>(false);
-
-  // useEffect((): void => {
-  //   urlWhere !== "" ? setRender(true) : setRender(false);
-  // }, [render, urlWhere]);
-
 
   return (
     <div className="footer">

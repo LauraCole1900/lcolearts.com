@@ -49,6 +49,11 @@ a {
   color: var(--dkBlue);
 }
 
+/* TODO: Use media queries here to adjust bottom margin: 60 on larger screens; 100 on smaller screens */
+.addMargin {
+  margin-bottom: 100px;
+}
+
 .mypic,
 .choralepic {
   max-width: 300px;

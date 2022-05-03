@@ -51,7 +51,7 @@ class WebPortfolio extends Component {
         <Row className="topMargin">
           <Col sm={{ span: 10, offset: 1 }}><h1 className="outline">Technical Skills</h1></Col>
         </Row>
-        <Row className="flexCenter">
+        <Row className="flexCenter addMargin">
           <Col sm={{ span: 10, offset: 1 }}>
             <Image fluid src={HtmlCircle} alt="HTML5" className="iconBig darkBg" />
             <Image fluid src={CssCircle} alt="CSS3" className="iconBig darkBg" />
@@ -72,12 +72,6 @@ class WebPortfolio extends Component {
             <Image fluid src={ReactBootstrap} alt="React Bootstrap" className="iconBig" />
             <Image fluid src={Mern} alt="MERN" className="iconBig" />
           </Col>
-          <Col sm={1}></Col>
-        </Row>
-        <Row>
-          <Col sm={{ span: 10, offset: 1 }}>
-          </Col>
-          <Col sm={1}></Col>
         </Row>
       </>
     );

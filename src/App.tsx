@@ -8,9 +8,6 @@ import Footer from "./components/footer";
 
 
 const App = (): ReactElement => {
-  const urlArray: string[] = window.location.href.split("/");
-  const urlWhere: string | undefined = urlArray.at(-1);
-  console.log({ urlWhere });
 
 
   return (
@@ -19,23 +16,15 @@ const App = (): ReactElement => {
         <Navigation />
         <Container fluid className="mycontainer">
           <Routes>
-            <Route path="/about" element={<About />} />
-            <Route path="/webdev" element={<WebPortfolio />} />
-            <Route path="/musician" element={<Musician />} />
-            <Route path="/martial_artist" element={<MartialArtist />} />
-            <Route path="/contact" element={<Contact />} />
+            <Route path="/about" element={<><About /><Footer /></>} />
+            <Route path="/webdev" element={<><WebPortfolio /><Footer /></>} />
+            <Route path="/musician" element={<><Musician /><Footer /></>} />
+            <Route path="/martial_artist" element={<><MartialArtist /><Footer /></>} />
+            <Route path="/contact" element={<><Contact /><Footer /></>} />
             <Route path="/" element={<Landing />} />
             <Route path="*" element={<NotFound />} />
           </Routes>
         </Container>
-        {urlWhere !== ""
-          ? <><div>
-            <p>&nbsp;</p>
-            <p>&nbsp;</p>
-          </div>
-            <Footer />
-          </>
-          : null}
       </Router>
     </>
   );
