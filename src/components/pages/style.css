@@ -120,6 +120,14 @@ a {
   height: 2.5em;
 }
 
+.float-left {
+  float: left;
+}
+
+.float-right {
+  float: right;
+}
+
 .topMargin {
   margin-top: 2.5em;
 }

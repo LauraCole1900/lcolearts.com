@@ -17,7 +17,11 @@ const Musician = (): ReactElement => {
         </Col>
       </Row>
       <Row>
-        <Col sm={{ span: 7, offset: 1 }}>
+        <Col sm={{ span: 10, offset: 1 }}>
+          <div className="float-right">
+            <Image fluid src={Chorale} alt="Laura Cole" className="choralepic" />
+            <p className="caption">Picture by Susan McKenzie, used by permission</p>
+          </div>
           <Row>
             <h2>Mezzo-Soprano</h2>
           </Row>
@@ -48,10 +52,6 @@ const Musician = (): ReactElement => {
               <li>Soloist for the Duruflé Requiem, April 9, 2022</li>
             </ul>
           </Row>
-        </Col>
-        <Col sm={3}>
-          <Image fluid src={Chorale} alt="Laura Cole" className="choralepic" />
-          <p className="caption">Picture by Susan McKenzie, used by permission</p>
         </Col>
       </Row>
     </Container>
