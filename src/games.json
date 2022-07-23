@@ -1,0 +1,46 @@
+[
+  {
+    "id": 1,
+    "name": "Notle",
+    "image": "/images/notle.png",
+    "subtitle": "",
+    "description": "A simple, music-based Wordle clone",
+    "tech": "Technologies used: HTML5, CSS3, Flexbox, jQuery Mobile",
+    "repo": "https://github.com/LauraCole1900/notle",
+    "deployed": "https://lauracole1900.github.io/notle/",
+    "deploy_button_label": "Notle"
+  },
+  {
+    "id": 2,
+    "name": "Jedi Word Guess",
+    "image": "/images/jedi-word-guess.png",
+    "subtitle": "",
+    "description": "A Star Wars-themed word guess game",
+    "tech": "Technologies used: HTML5, CSS3, Bootstrap, jQuery",
+    "repo": "https://github.com/LauraCole1900/jedi-word-guess",
+    "deployed": "https://lauracole1900.github.io/jedi-word-guess/",
+    "deploy_button_label": "Jedi Word Guess"
+  },
+  {
+    "id": 3,
+    "name": "Rock-Paper-Scissors-Lizard-Spock",
+    "image": "/images/rspzk.png",
+    "subtitle": "",
+    "description": "A quick-and-dirty game of Rock, Paper, Scissors, Lizard, Spock; played against the computer",
+    "tech": "Technologies used: HTML5, CSS3, Bootstrap, jQuery",
+    "repo": "https://github.com/LauraCole1900/js-rpszk",
+    "deployed": "https://lauracole1900.github.io/js-rpszk/",
+    "deploy_button_label": "R-P-S-L-Sp"
+  },
+  {
+    "id": 4,
+    "name": "Adventure Game",
+    "image": "/images/textAdventure.png",
+    "subtitle": "",
+    "description": "A simple text-based adventure game using JavaScript prompts. Not complete, but you can play out the 'south' plot in its entirety!",
+    "tech": "Technologies used: HTML5, CSS3, JavaScript",
+    "repo": "https://github.com/LauraCole1900/textAdventure",
+    "deployed": "https://lauracole1900.github.io/textAdventure/",
+    "deploy_button_label": "Adventure Game"
+  }
+]

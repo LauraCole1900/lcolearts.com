@@ -35,9 +35,9 @@ const Navigation = (): ReactElement => {
           <a href="https://lcolearts-blog.herokuapp.com/" className="navlink" rel="noreferrer noopener">
             Blog
           </a>
-          {/* <Link to="/contact" className="navlink">
-            Contact Me
-          </Link> */}
+          <Link to="/fun_and_games" className="navlink">
+            Fun & Games
+          </Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar >
