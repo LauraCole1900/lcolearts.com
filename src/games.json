@@ -24,7 +24,7 @@
   {
     "id": 3,
     "name": "Rock-Paper-Scissors-Lizard-Spock",
-    "image": "/images/rspzk.png",
+    "image": "/images/rpszk.png",
     "subtitle": "",
     "description": "A quick-and-dirty game of Rock, Paper, Scissors, Lizard, Spock; played against the computer",
     "tech": "Technologies used: HTML5, CSS3, Bootstrap, jQuery",
