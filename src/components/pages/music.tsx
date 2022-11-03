@@ -50,8 +50,14 @@ const Musician = (): ReactElement => {
             <ul>
               <li>Soloist on October 5, 2019 concert</li>
               <li>Soloist for the Duruflé Requiem, April 9, 2022</li>
+              <li>Guest Conductor for "No Time" by Susan Brumfield, October 8, 2022</li>
             </ul>
           </Row>
+        </Col>
+      </Row>
+      <Row>
+        <Col sm={{ span: 10, offset: 1}}>
+          <h4>You can find my musical compositions <a href="https://lcolearts.herokuapp.com/music" aria-labelledby="My Compositions">here</a>.</h4>
         </Col>
       </Row>
     </Container>
