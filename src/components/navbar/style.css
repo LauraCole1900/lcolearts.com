@@ -6,6 +6,16 @@
   --translucentBgGreen: rgba(3, 17, 5, 0.55);
 }
 
+.dropdown-menu.show {
+  background: var(--translucentBgGreen);
+  font-size: 16px;
+}
+
+.dropdown-item:hover {
+  color: var(--medBlue);
+  background: var(--translucentBgGreen);
+}
+
 .mylogo {
   color: var(--ltBlue);
   font-size: 24px;
@@ -19,9 +29,10 @@
   border-radius: 0;
 }
 
-.navlink {
-  padding: 1em;
-  color: var(--ltBlue);
+.navlink,
+a.dropdown-toggle.nav-link {
+  padding: 1em !important;
+  color: var(--ltBlue) !important;
   font-family: var(--headerFont);
 }
 

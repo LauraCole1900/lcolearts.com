@@ -1,6 +1,6 @@
 import { ReactElement } from "react";
 import { Link } from "react-router-dom";
-import { Nav, Navbar } from "react-bootstrap";
+import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 import "./style.css";
 
 
@@ -26,13 +26,14 @@ const Navigation = (): ReactElement => {
           <Link to="/webdev" className="navlink">
             Webdev
           </Link>
-          <Link to="/musician" className="navlink">
-            Musician
-          </Link>
+          <NavDropdown title="Musician">
+            <NavDropdown.Item href="/#/musician" className="navlink">C.V.</NavDropdown.Item>
+            <NavDropdown.Item href="https://lcolearts.herokuapp.com/music" className="navlink" rel="noreferred noopener">Compositions</NavDropdown.Item>
+          </NavDropdown>
           <Link to="/martial_artist" className="navlink">
             Martial Artist
           </Link>
-          <a href="https://lcolearts-blog.herokuapp.com/" className="navlink" rel="noreferrer noopener">
+          <a href="https://lcolearts.herokuapp.com/blog" className="navlink" rel="noreferrer noopener">
             Blog
           </a>
           <Link to="/fun_and_games" className="navlink">
