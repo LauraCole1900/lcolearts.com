@@ -20,7 +20,7 @@ class Games extends Component {
                 <h1>Fun & Games</h1>
               </Col>
               <Col sm={2}>
-                <p className="flexEnd">See more on &nbsp;<a href="https://github.com/LauraCole1900" rel="noreferrer noopener" target="_blank"><Image fluid src={GitHubDark} alt="GitHub icon" className="icon" /></a></p>
+                <p className="flexEnd">See more on &nbsp;<a href="https://github.com/LauraCole1900" rel="noreferrer noopener" target="_blank" aria-label="my GitHub"><Image fluid src={GitHubDark} alt="GitHub icon" className="icon" /></a></p>
               </Col>
             </Row>
           </Col>
