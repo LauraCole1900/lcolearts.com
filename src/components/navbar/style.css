@@ -20,6 +20,11 @@
   color: var(--ltBlue);
   font-size: 24px;
   font-family: var(--headerFont);
+  /* padding-top: 0.3125rem; */
+}
+.navbar-brand {
+  display: flex;
+  align-items: center;
 }
 
 .navbar {
