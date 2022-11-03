@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.7d56964f.chunk.css",
-    "main.js": "/static/js/main.24882200.chunk.js",
-    "main.js.map": "/static/js/main.24882200.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.473b53a1.js",
-    "runtime-main.js.map": "/static/js/runtime-main.473b53a1.js.map",
+    "main.css": "/static/css/main.533a3388.chunk.css",
+    "main.js": "/static/js/main.afa97c2b.chunk.js",
+    "main.js.map": "/static/js/main.afa97c2b.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.f59c7b3b.js",
+    "runtime-main.js.map": "/static/js/runtime-main.f59c7b3b.js.map",
     "static/css/2.d8cb5cde.chunk.css": "/static/css/2.d8cb5cde.chunk.css",
-    "static/js/2.a1a733c3.chunk.js": "/static/js/2.a1a733c3.chunk.js",
-    "static/js/2.a1a733c3.chunk.js.map": "/static/js/2.a1a733c3.chunk.js.map",
-    "static/js/3.99e78d00.chunk.js": "/static/js/3.99e78d00.chunk.js",
-    "static/js/3.99e78d00.chunk.js.map": "/static/js/3.99e78d00.chunk.js.map",
+    "static/js/2.838179ea.chunk.js": "/static/js/2.838179ea.chunk.js",
+    "static/js/2.838179ea.chunk.js.map": "/static/js/2.838179ea.chunk.js.map",
+    "static/js/3.d797dcaf.chunk.js": "/static/js/3.d797dcaf.chunk.js",
+    "static/js/3.d797dcaf.chunk.js.map": "/static/js/3.d797dcaf.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.d8cb5cde.chunk.css.map": "/static/css/2.d8cb5cde.chunk.css.map",
-    "static/css/main.7d56964f.chunk.css.map": "/static/css/main.7d56964f.chunk.css.map",
-    "static/js/2.a1a733c3.chunk.js.LICENSE.txt": "/static/js/2.a1a733c3.chunk.js.LICENSE.txt",
+    "static/css/main.533a3388.chunk.css.map": "/static/css/main.533a3388.chunk.css.map",
+    "static/js/2.838179ea.chunk.js.LICENSE.txt": "/static/js/2.838179ea.chunk.js.LICENSE.txt",
     "static/media/MERN-icon.39d4f786.png": "/static/media/MERN-icon.39d4f786.png",
     "static/media/aws-icon.84d24e4e.png": "/static/media/aws-icon.84d24e4e.png",
     "static/media/bootstrap-icon-2.6bd21855.png": "/static/media/bootstrap-icon-2.6bd21855.png",
@@ -45,10 +45,10 @@
     "static/media/ts-icon.e32e5ce6.png": "/static/media/ts-icon.e32e5ce6.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.473b53a1.js",
+    "static/js/runtime-main.f59c7b3b.js",
     "static/css/2.d8cb5cde.chunk.css",
-    "static/js/2.a1a733c3.chunk.js",
-    "static/css/main.7d56964f.chunk.css",
-    "static/js/main.24882200.chunk.js"
+    "static/js/2.838179ea.chunk.js",
+    "static/css/main.533a3388.chunk.css",
+    "static/js/main.afa97c2b.chunk.js"
   ]
 }
