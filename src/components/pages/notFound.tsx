@@ -31,17 +31,17 @@ const NotFound = (): ReactElement => {
               <Button data-toggle="popover" title="Webdev Portfolio" className="button">Webdev Portfolio</Button>
             </Link>
             <Link to="/musician">
-              <Button data-toggle="popover" title="Musician" className="button">Musician</Button>
+              <Button data-toggle="popover" title="Musician" className="button">Music CV</Button>
             </Link>
+            <a href="https://lcolearts.herokuapp.com/music" rel="noreferrer noopener">
+              <Button data-toggle="popover" title="Musical Compositions" className="button">Compositions</Button>
+            </a>
             <Link to="/martial_artist">
               <Button data-toggle="popover" title="Martial Artist" className="button">Martial Artist</Button>
             </Link>
-            <a href="https://lcolearts-blog.herokuapp.com/" rel="noreferrer noopener">
+            <a href="https://lcolearts.herokuapp.com/blog" rel="noreferrer noopener">
               <Button data-toggle="popover" title="Blog" className="button">Blog</Button>
             </a>
-            <Link to="/contact">
-              <Button data-toggle="popover" title="Contact Me" className="button">Contact Me</Button>
-            </Link>
           </Col>
         </Row>
       </Container>
