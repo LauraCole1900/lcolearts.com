@@ -28,12 +28,12 @@ const Navigation = (): ReactElement => {
           </Link>
           <NavDropdown title="Musician">
             <NavDropdown.Item href="/#/musician" className="navlink">C.V.</NavDropdown.Item>
-            <NavDropdown.Item href="https://lcolearts.herokuapp.com/music" className="navlink" rel="noreferred noopener">Compositions</NavDropdown.Item>
+            <NavDropdown.Item href="https://lcolearts.herokuapp.com/music/page/1" className="navlink" rel="noreferred noopener">Compositions</NavDropdown.Item>
           </NavDropdown>
           <Link to="/martial_artist" className="navlink">
             Martial Artist
           </Link>
-          <a href="https://lcolearts.herokuapp.com/blog" className="navlink" rel="noreferrer noopener">
+          <a href="https://lcolearts.herokuapp.com/blog/page/1" className="navlink" rel="noreferrer noopener">
             Blog
           </a>
           <Link to="/fun_and_games" className="navlink">
