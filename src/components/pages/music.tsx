@@ -51,6 +51,8 @@ const Musician = (): ReactElement => {
               <li>Soloist on October 5, 2019 concert</li>
               <li>Soloist for the Duruflé Requiem, April 9, 2022</li>
               <li>Guest Conductor for "No Time" by Susan Brumfield, October 8, 2022</li>
+              <li>Guest Conductor for "No Time" by Susan Brumfield, June 4, 2023, Lisbon, Portugal</li>
+              <li>Guest Conductor for "No Time" by Susan Brumfield, June 7, 2023, Granada, Spain</li>
             </ul>
           </Row>
         </Col>
