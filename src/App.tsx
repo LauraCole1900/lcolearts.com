@@ -5,7 +5,7 @@ import Container from "react-bootstrap/Container";
 import Navigation from "./components/navbar";
 import { About, Contact, Games, Landing, MartialArtist, Musician, NotFound, WebPortfolio } from "./components/pages";
 import Footer from "./components/footer";
-
+import './App.css';
 
 const App = (): ReactElement => {
 

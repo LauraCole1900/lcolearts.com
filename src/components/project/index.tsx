@@ -32,7 +32,7 @@ const ProjectCard = (props: Project): ReactElement => {
       <div className="card-inner">
         <div className="card-front">
           <Card.Header className="card-title"><h2>{props.name}</h2></Card.Header>
-          <Card.Img src={process.env.PUBLIC_URL + props.image} alt={props.name} className="bgImage" />
+          <Card.Img src={props.image} alt={props.name} className="bgImage" />
           <Card.Title><h2 className="dev">{props.subtitle}</h2></Card.Title>
         </div>
         <div className="card-back">

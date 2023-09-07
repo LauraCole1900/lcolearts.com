@@ -1,8 +1,3 @@
-:root {
-  --ltBlue: #c7dbf3;
-  --translucentBgGreen: rgba(3, 17, 5, 0.55);
-}
-
 .center {
   display: flex;
   align-items: center;

@@ -1,16 +1,8 @@
-:root {
-  --headerFont: "Fredericka the Great", cursive;
-  --bodyFont: "Open Sans", sans-serif;
-  --ltBlue: #c7dbf3;
-  --dkBlue: #00008b;
-  --translucentBgDk: rgba(45, 50, 30, 0.35);
-  --translucentBgLt: rgba(199, 219, 243, 0.25);
-}
-
 body {
   background-image: url("../../pix/meeker-n-longs.jpg");
   background-size: cover;
   background-attachment: fixed;
+  min-height: 100vh;
 }
 
 h1 {
@@ -38,6 +30,7 @@ h4 {
 
 p {
   font-size: 16px;
+  color: var(--dkGreen);
 }
 
 li {

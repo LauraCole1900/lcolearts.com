@@ -1,11 +1,3 @@
-:root {
-  --headerFont: "Fredericka the Great", cursive;
-  --ltGray1: #e2e2e2;
-  --ltBlue: #c7dbf3;
-  --medBlue: #408ae1;
-  --translucentBgGreen: rgba(3, 17, 5, 0.55);
-}
-
 .dropdown-menu.show {
   background: var(--translucentBgGreen);
   font-size: 16px;

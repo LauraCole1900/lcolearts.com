@@ -1,14 +1,3 @@
-:root {
-  --headerFont: 'Fredericka the Great', cursive;
-  --bodyFont: 'Open Sans', sans-serif;
-  --medGreen: #1fad34;
-  --dkGreen: #031105;
-  --ltBlue: #c7dbf3;
-  --translucentBgGreen: rgba(3, 17, 5, 0.55);
-  --translucentBgDker: rgba(0, 0, 0, 0.5);
-  --translucentBgLter: rgba(0, 0, 0, 0.2);
-}
-
 h2 {
   font-size: 30px;
   font-weight: lighter;
