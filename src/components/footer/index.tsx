@@ -26,7 +26,7 @@ const Footer = (): ReactElement => {
           <a href="https://github.com/LauraCole1900" rel="noreferrer noopener" target="_blank" data-toggle="popover" title="My GitHub"><Image fluid src={GitHubLight} alt="GitHub icon" className="icon" /></a>
         </Col>
         <Col xs={1}>
-          <a href="https://drive.google.com/file/d/1gOy3CkufWH_k_Y9dVFQYfZc955bPCT25/view?usp=sharing" rel="noreferrer noopener" target="_blank" data-toggle="popover" title="My Résumé"><Image fluid src={Resume} alt="Résumé icon" className="ltBgFooter" /></a>
+          <a href="https://docs.google.com/document/d/1xb-drpk72rutagfO5l-LvVFER2TR3QkL/" rel="noreferrer noopener" target="_blank" data-toggle="popover" title="My Résumé"><Image fluid src={Resume} alt="Résumé icon" className="ltBgFooter" /></a>
         </Col>
       </Row>
     </div >
