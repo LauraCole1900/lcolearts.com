@@ -7,6 +7,7 @@ export { default as Email } from "./email-light-2.png";
 export { default as Express1 } from "./expressjs-icon.png";
 export { default as Express2 } from "./expressjs-icon-2.png";
 export { default as Express3 } from "./expressjs-icon-3.png";
+export { default as Facebook } from "./facebook-icon.png";
 export { default as GitHubDark } from "./github-mark-dark.png";
 export { default as GitHubLight } from "./github-mark-light.png";
 export { default as GraphQL } from "./graphql-icon.png";

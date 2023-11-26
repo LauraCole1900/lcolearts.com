@@ -4,6 +4,10 @@
   margin-top: .75rem;
 }
 
+.contact-text {
+  color: var(--ltBlue);
+}
+
 .footer {
   position: fixed;
   left: 0;

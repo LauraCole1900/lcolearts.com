@@ -1,6 +1,6 @@
 import { ReactElement } from "react";
 import { Col, Image, Row } from "react-bootstrap";
-import { Email, GitHubLight, LinkedIn, Phone, Resume } from "../../pix";
+import { Email, Facebook, GitHubLight, LinkedIn, Phone, Resume } from "../../pix";
 import "./style.css";
 
 
@@ -10,8 +10,8 @@ const Footer = (): ReactElement => {
   return (
     <div className="footer">
       <Row>
-        <Col sm={{ span: 1, offset: 6 }} className="center">
-          <p>Contact me:</p>
+        <Col sm={{ span: 1, offset: 5 }} className="center">
+          <p className="contact-text">Contact me:</p>
         </Col>
         <Col xs={1}>
           <a href="mailto:lauracole1900@comcast.net" data-toggle="popover" title="Email me: lauracole1900@comcast.net"><Image fluid src={Email} alt="Email icon" className="icon" /></a>
@@ -24,6 +24,9 @@ const Footer = (): ReactElement => {
         </Col>
         <Col xs={1}>
           <a href="https://github.com/LauraCole1900" rel="noreferrer noopener" target="_blank" data-toggle="popover" title="My GitHub"><Image fluid src={GitHubLight} alt="GitHub icon" className="icon" /></a>
+        </Col>
+        <Col xs={1}>
+          <a href="https://www.facebook.com/profile.php?id=61550990845953" rel="noreferrer noopener" target="_blank" data-toggle="popover" title="My Facebook"><Image fluid src={Facebook} alt="Facebook icon" className="icon" /></a>
         </Col>
         <Col xs={1}>
           <a href="https://docs.google.com/document/d/1xb-drpk72rutagfO5l-LvVFER2TR3QkL/" rel="noreferrer noopener" target="_blank" data-toggle="popover" title="My Résumé"><Image fluid src={Resume} alt="Résumé icon" className="ltBgFooter" /></a>
