@@ -9,6 +9,17 @@ import './App.css';
 
 const App = (): ReactElement => {
 
+  const routesArr = ['about', 'webdev', 'musician', 'martial_artist', 'fun_and_games', 'contact', ''];
+
+  const urlArr = location.href.split('/');
+
+  if (!urlArr.includes('#') && urlArr.at(-1) === 'music') {
+    location.replace('https://lcolearts.herokuapp.com/music/page/1');
+  } else if (!urlArr.includes('#') && urlArr.at(-1) === 'blog') {
+    location.replace('https://lcolearts.herokuapp.com/blog/page/1');
+  } else if (!routesArr.includes(urlArr.at(-1)!)) {
+    location.replace(`https://lcolearts.com/#/${urlArr.at(-1)}`);
+  };
 
   return (
     <>
