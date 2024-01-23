@@ -138,3 +138,9 @@ a {
   text-shadow: -1px 1px 1px var(--ltBlue), 1px 1px 1px var(--ltBlue),
     1px -1px 1px var(--ltBlue), -1px -1px 1px var(--ltBlue);
 }
+
+@media screen and (min-width: 992px) {
+  .addMargin {
+    margin-bottom: 60px;
+  }
+}
