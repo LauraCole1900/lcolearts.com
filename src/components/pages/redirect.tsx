@@ -5,8 +5,6 @@ const Redirect = (): ReactElement => {
 
   const params = useParams();
   const navigate: NavigateFunction = useNavigate();
-  console.log(params);
-  console.log(typeof params);
 
   useEffect(() => {
     if (params.redirect === 'music') {
