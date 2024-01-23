@@ -9,13 +9,6 @@ import './App.css';
 
 const App = (): ReactElement => {
 
-  const routesArr: Array<string> = ['about', 'webdev', 'musician', 'martial_artist', 'fun_and_games', 'contact', ''];
-
-  const urlArr: Array<string> = location.href.split('/');
-
-  // if (!urlArr.includes('#')) {
-  //   location.replace(`https://lcolearts.com/#/${urlArr.at(-1)}`);
-  // };
 
   return (
     <>

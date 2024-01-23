@@ -19,7 +19,7 @@ This application uses React to build my portfolio website.
 
 ## Links
 
-[Deployed application on GitHub Pages](https://lcolearts.com/#/)
+[Deployed application on GitHub Pages](https://lcolearts.com/)
 
 ## Screenshots
 
