@@ -14,7 +14,7 @@ const Redirect = (): ReactElement => {
     } else if (params.redirect === 'blog') {
       window.location.replace('https://lcolearts.herokuapp.com/blog/page/1')
     } else {
-      navigate('/');
+      navigate('/404');
     }
   })
 

@@ -29,9 +29,9 @@ const App = (): ReactElement => {
             <Route path="/martial_artist" element={<><MartialArtist /><Footer /></>} />
             <Route path="/fun_and_games" element={<><Games /><Footer /></>} />
             <Route path="/contact" element={<><Contact /><Footer /></>} />
+            <Route path="/404" element={<NotFound />} />
             <Route path="/:redirect" element={<><Redirect /><Footer /></>} />
             <Route path="" element={<Landing />} />
-            <Route path="*" element={<NotFound />} />
           </Routes>
         </Container>
       </Router>
