@@ -5,4 +5,5 @@ export { default as Landing } from "./landing";
 export { default as MartialArtist } from "./martialarts";
 export { default as Musician } from "./music";
 export { default as NotFound } from "./notFound";
+export { default as Redirect} from './redirect';
 export { default as WebPortfolio } from "./webdev";

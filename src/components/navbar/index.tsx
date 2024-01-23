@@ -27,7 +27,7 @@ const Navigation = (): ReactElement => {
             Webdev
           </Link>
           <NavDropdown title="Musician">
-            <NavDropdown.Item href="/#/musician" className="navlink">C.V.</NavDropdown.Item>
+            <NavDropdown.Item href="/musician" className="navlink">C.V.</NavDropdown.Item>
             <NavDropdown.Item href="https://lcolearts.herokuapp.com/music/page/1" className="navlink" rel="noreferred noopener">Compositions</NavDropdown.Item>
           </NavDropdown>
           <Link to="/martial_artist" className="navlink">

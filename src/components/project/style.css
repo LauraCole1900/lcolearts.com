@@ -24,6 +24,7 @@ p {
   margin: 10px;
   background-color: var(--medGreen);
   color: var(--dkGreen);
+  width: 100%;
 }
 
 .card-inner {
