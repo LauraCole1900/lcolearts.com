@@ -29,3 +29,7 @@
   margin-top: 1em;
   padding: 5px;
 }
+
+.round-corners {
+  border-radius: 2px;
+}

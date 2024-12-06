@@ -1,4 +1,5 @@
 export { default as AWS } from "./aws-icon.png";
+export { default as Bluesky } from "./bluesky-icon.png";
 export { default as Bootstrap1 } from "./bootstrap-icon.png";
 export { default as Bootstrap2 } from "./bootstrap-icon-2.png";
 export { default as Chorale } from "./chorale_2.jpg";

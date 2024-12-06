@@ -1,6 +1,6 @@
 import { ReactElement } from "react";
 import { Col, Image, Row } from "react-bootstrap";
-import { Email, Facebook, GitHubLight, LinkedIn, Phone, Resume } from "../../pix";
+import { Bluesky, Email, GitHubLight, LinkedIn, Phone, Resume } from "../../pix";
 import "./style.css";
 
 
@@ -26,8 +26,11 @@ const Footer = (): ReactElement => {
           <a href="https://github.com/LauraCole1900" rel="noreferrer noopener" target="_blank" data-toggle="popover" title="My GitHub"><Image fluid src={GitHubLight} alt="GitHub icon" className="icon" /></a>
         </Col>
         <Col xs={1}>
-          <a href="https://www.facebook.com/profile.php?id=61550990845953" rel="noreferrer noopener" target="_blank" data-toggle="popover" title="My Facebook"><Image fluid src={Facebook} alt="Facebook icon" className="icon" /></a>
+          <a href="https://bsky.app/profile/lcolearts.bsky.social" rel="noreferrer noopener" target="_blank" data-toggle="popover" title="My Bluesky"><Image fluid src={Bluesky} alt="Bluesky icon" className="icon round-corners" /></a>
         </Col>
+        {/* <Col xs={1}>
+          <a href="https://www.facebook.com/profile.php?id=61550990845953" rel="noreferrer noopener" target="_blank" data-toggle="popover" title="My Facebook"><Image fluid src={Facebook} alt="Facebook icon" className="icon" /></a>
+        </Col> */}
         <Col xs={1}>
           <a href="https://docs.google.com/document/d/1xb-drpk72rutagfO5l-LvVFER2TR3QkL/" rel="noreferrer noopener" target="_blank" data-toggle="popover" title="My Résumé"><Image fluid src={Resume} alt="Résumé icon" className="ltBgFooter" /></a>
         </Col>
