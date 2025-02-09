@@ -33,4 +33,4 @@ export { default as Redux } from "./redux-icon.png";
 export { default as Resume } from "./resume-document-icon.png";
 export { default as Sass } from "./sass-icon.png";
 export { default as TypeScript } from "./ts-icon.png";
-export { default as YouTube } from "./youtube-icon.png";
+export { default as YouTube } from "./youtube-icon-mono.png";
