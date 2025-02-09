@@ -1,0 +1,83 @@
+[
+  {
+    "id": 1,
+    "name": "Holidays 2020-2021",
+    "image": "/images/h-2020.png",
+    "description": "React-based holiday card for 2020",
+    "repo": "https://github.com/LauraCole1900/holiday-ecard-2020",
+    "deployed": "https://lauracole1900.github.io/holiday-ecard-2020/",
+    "deploy_button_label": "Holidays 2020"
+  },
+  {
+    "id": 2,
+    "name": "Birthdays 2021",
+    "image": "/images/b-2021.png",
+    "description": "React-based birthday card for birthdays starting December 2021",
+    "repo": "https://github.com/LauraCole1900/bday-card-2021",
+    "deployed": "https://lauracole1900.github.io/bday-card-2021/",
+    "deploy_button_label": "Birthday Quotes"
+  },
+  {
+    "id": 3,
+    "name": "Holidays 2021-2022",
+    "image": "/images/h-2021.png",
+    "description": "React-based holiday card for 2021",
+    "repo": "https://github.com/LauraCole1900/holiday-ecard-2021",
+    "deployed": "https://lauracole1900.github.io/holiday-ecard-2021/",
+    "deploy_button_label": "Holiday Mad Libs"
+  },
+  {
+    "id": 4,
+    "name": "Birthdays 2022",
+    "image": "/images/b-2022.png",
+    "description": "Another React-based birthday card",
+    "repo": "https://github.com/LauraCole1900/bday-card-2022",
+    "deployed": "https://lauracole1900.github.io/bday-card-2022/",
+    "deploy_button_label": "Birthday, Take 5"
+  },
+  {
+    "id": 5,
+    "name": "Holidays 2022-2023",
+    "image": "/images/h-2022.png",
+    "description": "React-based holiday card for 2022",
+    "repo": "https://github.com/LauraCole1900/holiday-ecard-2022",
+    "deployed": "https://lauracole1900.github.io/holiday-ecard-2022/",
+    "deploy_button_label": "Auld Lang Syne"
+  },
+  {
+    "id": 6,
+    "name": "Birthdays 2023",
+    "image": "/images/b-2023.png",
+    "description": "React-based holiday card for 2022",
+    "repo": "https://github.com/LauraCole1900/bday-card-2023",
+    "deployed": "https://lauracole1900.github.io/bday-card-2023/",
+    "deploy_button_label": "Birthday Motet"
+  },
+  {
+    "id": 7,
+    "name": "Holidays 2023-2024",
+    "image": "/images/h-2023.png",
+    "description": "React-based holiday card for 2023",
+    "repo": "https://github.com/LauraCole1900/holiday-ecard-2023",
+    "deployed": "https://lauracole1900.github.io/holiday-ecard-2023/",
+    "deploy_button_label": "Holiday Aurora"
+  },
+  {
+    "id": 8,
+    "name": "Birthdays 2024",
+    "image": "/images/b-2024.png",
+    "description": "React-based holiday card for 2022",
+    "repo": "https://github.com/LauraCole1900/bday-card-2024",
+    "deployed": "https://lauracole1900.github.io/bday-card-2024/",
+    "deploy_button_label": "Birthday Photo Grid"
+  },
+  {
+    "id": 9,
+    "name": "Holidays 2024-2025",
+    "image": "/images/h-2024.png",
+    "description": "React-based holiday card for 2024",
+    "repo": "https://github.com/LauraCole1900/holiday-ecard-2024",
+    "deployed": "https://lauracole1900.github.io/holiday-ecard-2024/",
+    "deploy_button_label": "Holiday Dawning"
+  }
+]

@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import Container from "react-bootstrap/Container";
 import Navigation from "./components/navbar";
-import { About, Contact, Games, Landing, MartialArtist, Musician, NotFound, Redirect, WebPortfolio } from "./components/pages";
+import { About, Contact, Ecards, Games, Landing, MartialArtist, Musician, NotFound, Redirect, WebPortfolio } from "./components/pages";
 import Footer from "./components/footer";
 import './App.css';
 
@@ -21,6 +21,7 @@ const App = (): ReactElement => {
             <Route path="/musician" element={<><Musician /><Footer /></>} />
             <Route path="/martial_artist" element={<><MartialArtist /><Footer /></>} />
             <Route path="/fun_and_games" element={<><Games /><Footer /></>} />
+            <Route path="/ecards" element={<><Ecards /><Footer /></>} />
             <Route path="/contact" element={<><Contact /><Footer /></>} />
             <Route path="/404" element={<NotFound />} />
             <Route path="/:redirect" element={<><Redirect /><Footer /></>} />
