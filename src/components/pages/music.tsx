@@ -59,7 +59,7 @@ const Musician = (): ReactElement => {
       </Row>
       <Row>
         <Col sm={{ span: 10, offset: 1}}>
-          <h4>You can find my musical compositions <a href="https://lcolearts.herokuapp.com/music/page/1" aria-labelledby="My Compositions">here</a>.</h4>
+          <h4>You can find my musical compositions <a href="https://lcolearts-b56b1f36515b.herokuapp.com/music/page/1" aria-labelledby="My Compositions">here</a>.</h4>
         </Col>
       </Row>
     </Container>

@@ -33,13 +33,13 @@ const NotFound = (): ReactElement => {
             <Link to="/musician">
               <Button data-toggle="popover" title="Musician" className="button">Music CV</Button>
             </Link>
-            <a href="https://lcolearts.herokuapp.com/music" rel="noreferrer noopener">
+            <a href="https://lcolearts-b56b1f36515b.herokuapp.com/music" rel="noreferrer noopener">
               <Button data-toggle="popover" title="Musical Compositions" className="button">Compositions</Button>
             </a>
             <Link to="/martial_artist">
               <Button data-toggle="popover" title="Martial Artist" className="button">Martial Artist</Button>
             </Link>
-            <a href="https://lcolearts.herokuapp.com/blog" rel="noreferrer noopener">
+            <a href="https://lcolearts-b56b1f36515b.herokuapp.com/blog" rel="noreferrer noopener">
               <Button data-toggle="popover" title="Blog" className="button">Blog</Button>
             </a>
           </Col>

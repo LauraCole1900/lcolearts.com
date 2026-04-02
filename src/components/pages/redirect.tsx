@@ -8,9 +8,9 @@ const Redirect = (): ReactElement => {
 
   useEffect(() => {
     if (params.redirect === 'music') {
-      window.location.replace('https://lcolearts.herokuapp.com/music/page/1')
+      window.location.replace('https://lcolearts-b56b1f36515b.herokuapp.com/music/page/1')
     } else if (params.redirect === 'blog') {
-      window.location.replace('https://lcolearts.herokuapp.com/blog/page/1')
+      window.location.replace('https://lcolearts-b56b1f36515b.herokuapp.com/blog/page/1')
     } else {
       navigate('/404');
     }
